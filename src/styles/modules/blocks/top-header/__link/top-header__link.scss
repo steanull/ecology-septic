@@ -1,0 +1,4 @@
+.top-header__link {
+  @include font(300, 18px, 22px, #555555);
+  text-decoration: none;
+}

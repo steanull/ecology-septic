@@ -1,0 +1,35 @@
+@import "modules/fonts.scss";
+@import "modules/variables.scss";
+@import "modules/mixins.scss";
+@import "modules/blocks/page/page.scss";
+/* HEADER */
+@import "modules/blocks/header/header.scss";
+@import "modules/blocks/header/__top-header/header__top-header.scss";
+@import "modules/blocks/header/__main-header/header__main-header.scss";
+
+/* TOP-HEADER */
+@import "modules/blocks/top-header/top-header.scss";
+@import "modules/blocks/top-header/__logo/top-header__logo.scss";
+@import "modules/blocks/top-header/__image/top-header__image.scss";
+@import "modules/blocks/top-header/__title/top-header__title.scss";
+@import "modules/blocks/top-header/__menu/top-header__menu.scss";
+@import "modules/blocks/top-header/__list/top-header__list.scss";
+@import "modules/blocks/top-header/__item/top-header__item.scss";
+@import "modules/blocks/top-header/__link/top-header__link.scss";
+@import "modules/blocks/top-header/__phone/top-header__phone.scss";
+
+/* MAIN-HEADER */
+@import "modules/blocks/main-header/main-header.scss";
+@import "modules/blocks/main-header/__image/main-header__image.scss";
+@import "modules/blocks/main-header/__advantage/main-header__advantage.scss";
+@import "modules/blocks/main-header/__advantage/_position/main-header__advantage_position_tr.scss";
+@import "modules/blocks/main-header/__advantage/_position/main-header__advantage_position_tl.scss";
+@import "modules/blocks/main-header/__advantage/_position/main-header__advantage_position_bl.scss";
+@import "modules/blocks/main-header/__tver/main-header__tver.scss";
+
+/* TVER */
+@import "modules/blocks/tver/tver.scss";
+@import "modules/blocks/tver/__title/tver__title.scss";
+@import "modules/blocks/tver/__description/tver__description.scss";
+@import "modules/blocks/tver/__button/tver__button.scss";
+
