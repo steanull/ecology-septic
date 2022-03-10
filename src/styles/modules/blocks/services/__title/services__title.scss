@@ -1,0 +1,35 @@
+.services__title {
+  @include fontTitle(700, 36px, 44px, 1px, #50AC8B);
+  max-width: 660px;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 3;
+  margin-left: 64px;
+  &:after {
+    content: '';
+    display: block;
+    height: 2px;
+    max-width: 192px;
+    width: 100%;
+    margin-top: 20px;
+    background: #666666;
+  }
+  &:before {
+    content: '1';
+    display: flex;
+    padding-left: 24px;
+    margin-left: -64px;
+    margin-top: -60px;
+    box-sizing: border-box;
+    align-items: center;
+    position:absolute;
+    background-color: #ffffff;
+    max-width: 106px;
+    width: 100%;
+    min-height: 122px;
+    z-index: -1;
+    @include font(700, 96px, 117px, #50AC8B);
+  }
+}

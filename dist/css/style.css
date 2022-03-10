@@ -1,15 +1,22 @@
 @font-face {
-  font-family: "Montserrat";
-  src: url("/../fonts/montserrat-regular.woff2") format("woff2"), url("/../fonts/montserrat-regular.woff") format("woff");
+  font-family: "Roboto";
+  src: url("/../fonts/roboto-regular.woff2") format("woff2"), url("/../fonts/roboto-regular.woff") format("woff");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("/../fonts/montserrat-light.woff2") format("woff2"), url("/../fonts/montserrat-light.woff") format("woff");
+  font-family: "Roboto";
+  src: url("/../fonts/roboto-medium.woff2") format("woff2"), url("/../fonts/roboto-medium.woff") format("woff");
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/../fonts/roboto-bold.woff2") format("woff2"), url("/../fonts/roboto-bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
 }
 
 ::-moz-selection {
@@ -27,29 +34,40 @@
   padding: 0;
   width: 100%;
   min-height: 100%;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #EAF6F4), color-stop(50%, #F2FAFA));
-  background: -o-linear-gradient(left, #EAF6F4 50%, #F2FAFA 50%);
-  background: linear-gradient(to right, #EAF6F4 50%, #F2FAFA 50%);
-  font-family: "Montserrat", Arial, sans-serif;
+  background: #FBFDF8;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.content {
+  max-width: 1600px;
+  width: 100%;
+}
+
+.offset {
+  margin: 0 auto;
+  padding: 0;
 }
 
 /* HEADER */
 
 .header {
   width: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #F0F1EC), color-stop(50%, #FBFDF8));
+  background: -o-linear-gradient(left, #F0F1EC 50%, #FBFDF8 50%);
+  background: linear-gradient(to right, #F0F1EC 50%, #FBFDF8 50%);
 }
 
 .header__top-header {
   margin: 0 auto;
   padding: 0;
-  max-width: 1600px;
+  max-width: 1540px;
   width: 100%;
 }
 
 .header__main-header {
   margin: 0 auto;
   padding: 0;
-  max-width: 1600px;
+  max-width: 1540px;
   width: 100%;
 }
 
@@ -95,11 +113,11 @@
 
 .top-header__title {
   font-style: normal;
-  color: #555555;
+  color: #00210E;
   letter-spacing: 1px;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 34px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -108,7 +126,7 @@
   text-rendering: optimizeLegibility;
   max-width: 200px;
   width: 100%;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 15px;
   padding: 0;
   text-transform: uppercase;
 }
@@ -136,25 +154,45 @@
 }
 
 .top-header__item {
-  margin: 0 14px;
+  margin: 0 16px;
 }
 
 .top-header__link {
-  color: #555555;
+  color: #4F6354;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 24px;
   text-decoration: none;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-header__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-top: 25px;
+  width: 64px;
+  height: 1px;
+  background-color: #006D3C;
 }
 
 .top-header__phone {
-  color: #595959;
+  color: #006D3C;
   font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
   text-decoration: none;
+  text-align: right;
+  max-width: 340px;
+  width: 100%;
 }
 
 /* MAIN-HEADER */
@@ -250,4 +288,171 @@
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+/* SERVICES */
+
+.services {
+  display: grid;
+  grid-template-rows: 200px 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  height: 100%;
+}
+
+.services__title {
+  font-style: normal;
+  color: #50AC8B;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  max-width: 660px;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 3;
+  margin-left: 64px;
+}
+
+.services__title:after {
+  content: "";
+  display: block;
+  height: 2px;
+  max-width: 192px;
+  width: 100%;
+  margin-top: 20px;
+  background: #666666;
+}
+
+.services__title:before {
+  content: "1";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 24px;
+  margin-left: -64px;
+  margin-top: -60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  background-color: #ffffff;
+  max-width: 106px;
+  width: 100%;
+  min-height: 122px;
+  z-index: -1;
+  color: #50AC8B;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 117px;
+}
+
+.services__description {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 3;
+  padding: 0 45px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #666666;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.services__cards {
+  max-width: 750px;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 2;
+}
+
+/* ADVANTAGE-CARDS */
+
+.advantage-cards {
+  width: 100%;
+}
+
+.advantage-cards__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.advantage-cards__item {
+  max-width: 230px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.advantage-cards__subtitle {
+  font-style: normal;
+  color: #50AC8B;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  margin-left: 21px;
+}
+
+.advantage-cards__description {
+  color: #666666;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0 21px;
+}
+
+.advantage-cards__button {
+  border: 0;
+  margin: 0;
+  padding: 10px 21px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.advantage-cards__button:after {
+  content: url("../img/chevron-right.svg");
+  padding: 2px 0 0 10px;
 }

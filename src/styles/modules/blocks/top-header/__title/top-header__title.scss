@@ -1,8 +1,8 @@
 .top-header__title {
-  @include fontTitle(600, 24px, 34px, 1px, #555555);
+  @include fontTitle(400, 28px, 36px, 1px, #00210E);
   max-width: 200px;
   width: 100%;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 15px;
   padding: 0;
   text-transform: uppercase;
 }

@@ -2,6 +2,9 @@
 @import "modules/variables.scss";
 @import "modules/mixins.scss";
 @import "modules/blocks/page/page.scss";
+@import "modules/blocks/content/content.scss";
+@import "modules/blocks/offset/offset.scss";
+
 /* HEADER */
 @import "modules/blocks/header/header.scss";
 @import "modules/blocks/header/__top-header/header__top-header.scss";
@@ -33,3 +36,17 @@
 @import "modules/blocks/tver/__description/tver__description.scss";
 @import "modules/blocks/tver/__button/tver__button.scss";
 
+/* SERVICES */
+@import "modules/blocks/services/services.scss";
+@import "modules/blocks/services/__title/services__title.scss";
+@import "modules/blocks/services/__number/services__number.scss";
+@import "modules/blocks/services/__description/services__description.scss";
+@import "modules/blocks/services/__cards/services__cards.scss";
+
+/* ADVANTAGE-CARDS */
+@import "modules/blocks/advantage-cards/advantage-cards.scss";
+@import "modules/blocks/advantage-cards/__list/advantage-cards__list.scss";
+@import "modules/blocks/advantage-cards/__item/advantage-cards__item.scss";
+@import "modules/blocks/advantage-cards/__subtitle/advantage-cards__subtitle.scss";
+@import "modules/blocks/advantage-cards/__description/advantage-cards__description.scss";
+@import "modules/blocks/advantage-cards/__button/advantage-cards__button.scss";
