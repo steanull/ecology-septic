@@ -213,14 +213,14 @@
 
 .main-header__advantage {
   position: absolute;
-  color: #50AC8B;
+  color: #006D3C;
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
   text-decoration: none;
   text-align: center;
-  max-width: 230px;
+  max-width: 220px;
   width: 100%;
 }
 
@@ -248,15 +248,15 @@
 /* TVER */
 
 .tver {
-  max-width: 590px;
+  max-width: 500px;
   width: 100%;
 }
 
 .tver__title {
   font-style: normal;
-  color: #50AC8B;
+  color: #006D3C;
   letter-spacing: 1px;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 36px;
   line-height: 44px;
   -moz-osx-font-smoothing: grayscale;
@@ -270,20 +270,22 @@
 }
 
 .tver__description {
-  color: #666666;
+  color: #4F6354;
   font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
-  padding: 16px 0 30px;
+  padding: 16px 0 36px;
   margin: 0;
 }
 
 .tver__button {
-  max-width: 170px;
+  max-width: 164px;
   width: 100%;
-  min-height: 40px;
-  background-color: #50ac8b;
+  min-height: 42px;
+  background-color: #006D3C;
+  border-radius: 6px;
+  text-transform: uppercase;
   color: #ffffff;
   margin: 0;
   padding: 0;
