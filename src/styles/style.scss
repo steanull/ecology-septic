@@ -3,6 +3,7 @@
 @import "modules/mixins.scss";
 @import "modules/blocks/page/page.scss";
 @import "modules/blocks/content/content.scss";
+@import "modules/blocks/content/__background/content__background.scss";
 @import "modules/blocks/offset/offset.scss";
 
 /* HEADER */
@@ -42,6 +43,10 @@
 @import "modules/blocks/services/__number/services__number.scss";
 @import "modules/blocks/services/__description/services__description.scss";
 @import "modules/blocks/services/__cards/services__cards.scss";
+@import "modules/blocks/services/__about/services__about.scss";
+@import "modules/blocks/services/__main-text/services__main-text.scss";
+@import "modules/blocks/services/__symbol/services__symbol.scss";
+@import "modules/blocks/services/__button/services__button.scss";
 
 /* ADVANTAGE-CARDS */
 @import "modules/blocks/advantage-cards/advantage-cards.scss";
@@ -50,3 +55,4 @@
 @import "modules/blocks/advantage-cards/__subtitle/advantage-cards__subtitle.scss";
 @import "modules/blocks/advantage-cards/__description/advantage-cards__description.scss";
 @import "modules/blocks/advantage-cards/__button/advantage-cards__button.scss";
+@import "modules/blocks/advantage-cards/__image/advantage-cards__image.scss";

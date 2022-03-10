@@ -1,7 +1,8 @@
 .services {
   display: grid;
-  grid-template-rows: 200px 1fr 1fr;
+  grid-template-rows: 256px 315px 1fr;
   grid-template-columns: 1fr 1fr;
   gap: 0;
   height: 100%;
+  padding: 0 0 64px 0;
 }

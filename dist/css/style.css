@@ -43,6 +43,16 @@
   width: 100%;
 }
 
+.content__background {
+  position: absolute;
+  width: 50%;
+  min-height: 256px;
+  border-bottom-right-radius: 26px;
+  z-index: -1;
+  left: 0;
+  background-color: #F0F1EC;
+}
+
 .offset {
   margin: 0 auto;
   padding: 0;
@@ -193,6 +203,13 @@
   text-align: right;
   max-width: 340px;
   width: 100%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.top-header__phone:hover {
+  color: #4F6354;
 }
 
 /* MAIN-HEADER */
@@ -286,27 +303,36 @@
   background-color: #006D3C;
   border-radius: 6px;
   text-transform: uppercase;
+  cursor: pointer;
   color: #ffffff;
   margin: 0;
   padding: 0;
   border: 0;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.tver__button:hover {
+  background-color: #4F6354;
 }
 
 /* SERVICES */
 
 .services {
   display: grid;
-  grid-template-rows: 200px 1fr 1fr;
+  grid-template-rows: 256px 315px 1fr;
   grid-template-columns: 1fr 1fr;
   gap: 0;
   height: 100%;
+  padding: 0 0 64px 0;
 }
 
 .services__title {
   font-style: normal;
-  color: #50AC8B;
+  color: #006D3C;
   letter-spacing: 1px;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 36px;
   line-height: 44px;
   -moz-osx-font-smoothing: grayscale;
@@ -316,71 +342,146 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   max-width: 660px;
+  padding: 50px 0;
   width: 100%;
   grid-row-start: 1;
   grid-column-start: 1;
   grid-row-end: 2;
   grid-column-end: 3;
-  margin-left: 64px;
+  margin: 100px 0 0 88px;
 }
 
 .services__title:after {
   content: "";
   display: block;
-  height: 2px;
+  height: 1px;
   max-width: 192px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: 40px;
   background: #666666;
 }
 
 .services__title:before {
-  content: "1";
+  content: "K";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 24px;
-  margin-left: -64px;
-  margin-top: -60px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
-  background-color: #ffffff;
-  max-width: 106px;
-  width: 100%;
-  min-height: 122px;
   z-index: -1;
-  color: #50AC8B;
+  min-height: 122px;
+  position: absolute;
+  margin-left: -88px;
+  margin-top: -60px;
+  max-width: 105px;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 6px;
   font-style: normal;
+  color: #006D3C;
+  letter-spacing: 1px;
   font-weight: 700;
   font-size: 96px;
-  line-height: 117px;
+  line-height: 112px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
 
 .services__description {
-  grid-row-start: 2;
-  grid-column-start: 2;
-  grid-row-end: 3;
-  grid-column-end: 3;
-  padding: 0 45px;
+  padding: 0 45px 15px;
+  margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #666666;
+  color: #4F6354;
   font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .services__cards {
   max-width: 750px;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-row-end: 4;
+  grid-column-end: 2;
+}
+
+.services__about {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-row-end: 4;
+  grid-column-end: 3;
+  max-width: 532px;
+  width: 100%;
+  margin-left: 142px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services__main-text {
   grid-row-start: 2;
   grid-column-start: 1;
   grid-row-end: 3;
-  grid-column-end: 2;
+  grid-column-end: 3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  align-self: center;
+  max-width: 1114px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.services__symbol {
+  color: #006D3C;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.services__button {
+  max-width: 164px;
+  width: 100%;
+  min-height: 42px;
+  background-color: #006D3C;
+  border-radius: 6px;
+  text-transform: uppercase;
+  margin-left: 45px;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 0;
+  border: 0;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.services__button:hover {
+  background-color: #4F6354;
 }
 
 /* ADVANTAGE-CARDS */
@@ -406,55 +507,83 @@
 }
 
 .advantage-cards__item {
-  max-width: 230px;
+  max-width: 223px;
   width: 100%;
-  background-color: #ffffff;
+  min-height: 348px;
+  background-color: #F0F1EC;
+  border-radius: 6px;
 }
 
 .advantage-cards__subtitle {
   font-style: normal;
-  color: #50AC8B;
+  color: #006D3C;
   letter-spacing: 1px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  margin-left: 21px;
+  margin: 11px 21px;
 }
 
 .advantage-cards__description {
-  color: #666666;
+  color: #4F6354;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 16px;
   margin: 0 21px;
 }
 
 .advantage-cards__button {
   border: 0;
   margin: 0;
-  padding: 10px 21px 16px;
+  padding: 10px 21px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffffff;
-  color: #000000;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  color: #006D3C;
   font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.advantage-cards__button:hover {
+  color: #4F6354;
+}
+
+.advantage-cards__button:hover:after {
+  padding: 6px 0 0 16px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .advantage-cards__button:after {
   content: url("../img/chevron-right.svg");
-  padding: 2px 0 0 10px;
+  padding: 6px 0 0 36px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.advantage-cards__image {
+  max-width: 223px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }

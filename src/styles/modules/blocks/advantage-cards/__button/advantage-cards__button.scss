@@ -1,14 +1,22 @@
 .advantage-cards__button {
   border: 0;
   margin: 0;
-  padding: 10px 21px 16px;
+  padding: 10px 21px;
   display: flex;
   align-items: center;
-  background-color: #ffffff;
-  @include font (400, 12px, 15px, #000000);
+  cursor: pointer;
+  transition: .5s;
+  @include font (500, 14px, 20px, #006D3C);
+  &:hover {
+    color: #4F6354;
+    &:after {
+      padding: 6px 0 0 16px;
+      transition: .5s;
+    }
+  }
   &:after {
     content: url('../img/chevron-right.svg');
-    padding: 2px 0 0 10px;
-
+    padding: 6px 0 0 36px;
+    transition: .5s;
   }
 }

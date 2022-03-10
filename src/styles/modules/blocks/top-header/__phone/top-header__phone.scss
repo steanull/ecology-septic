@@ -4,4 +4,8 @@
   text-align: right;
   max-width: 340px;
   width: 100%;
+  transition: .5s;
+  &:hover {
+    color: #4F6354;
+  }
 }
