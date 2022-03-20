@@ -262,6 +262,13 @@
   margin-top: 420px;
 }
 
+.main-header__icon {
+  position: absolute;
+  max-width: 76px;
+  width: 100%;
+  min-height: 76px;
+}
+
 /* TVER */
 
 .tver {
@@ -586,4 +593,34 @@
      object-fit: contain;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
+}
+
+/* ICON */
+
+.icon__stroke {
+  fill: #006d3c;
+}
+
+.icon__primary {
+  fill: #4f6354;
+}
+
+.icon__secondary {
+  fill: #fbfdf8;
+}
+
+.icon_position_top {
+  margin-top: -610px;
+}
+
+.icon_position_right {
+  margin-left: 605px;
+}
+
+.icon_position_left {
+  margin-left: -620px;
+}
+
+.icon_position_bottom {
+  margin-top: 610px;
 }

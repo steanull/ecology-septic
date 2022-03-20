@@ -30,6 +30,7 @@
 @import "modules/blocks/main-header/__advantage/_position/main-header__advantage_position_tl.scss";
 @import "modules/blocks/main-header/__advantage/_position/main-header__advantage_position_bl.scss";
 @import "modules/blocks/main-header/__tver/main-header__tver.scss";
+@import "modules/blocks/main-header/__icon/main-header__icon.scss";
 
 /* TVER */
 @import "modules/blocks/tver/tver.scss";
@@ -56,3 +57,13 @@
 @import "modules/blocks/advantage-cards/__description/advantage-cards__description.scss";
 @import "modules/blocks/advantage-cards/__button/advantage-cards__button.scss";
 @import "modules/blocks/advantage-cards/__image/advantage-cards__image.scss";
+
+/* ICON */
+@import "modules/blocks/icon/icon.scss";
+@import "modules/blocks/icon/__stroke/icon__stroke.scss";
+@import "modules/blocks/icon/__primary/icon__primary.scss";
+@import "modules/blocks/icon/__secondary/icon__secondary.scss";
+@import "modules/blocks/icon/_position/icon_position_top.scss";
+@import "modules/blocks/icon/_position/icon_position_right.scss";
+@import "modules/blocks/icon/_position/icon_position_left.scss";
+@import "modules/blocks/icon/_position/icon_position_bottom.scss";
