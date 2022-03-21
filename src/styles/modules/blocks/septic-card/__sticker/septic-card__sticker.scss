@@ -1,0 +1,23 @@
+.septic-card__sticker {
+  position: absolute;
+  max-width: 57px;
+  right: 15px;
+  top: 2px;
+  width: 100%;
+  min-height: 25px;
+  padding-left: 4px;
+  background-color: #DCE5DB;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include font(500, 11px, 16px, #006D3C);
+  letter-spacing: 1px;
+  &:after {
+    content: url('../img/sticker.svg');
+    padding: 0 4px 4px;
+    height: 16px;
+    max-width: 16px;
+    width: 100%;
+  }
+}

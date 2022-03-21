@@ -21,7 +21,7 @@ let path = {
 
     watch: {
         html: sourceFolder + "/**/*.html",
-        css: sourceFolder + "/styles/**/*.scss",
+        css: sourceFolder + "/styles/**/*slider__item.scss",
         js: sourceFolder + "/scripts/**/*.js",
         img: sourceFolder + "/images/**/*.+(png|jpg|gif|ico|svg|webp)"
     },

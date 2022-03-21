@@ -67,3 +67,54 @@
 @import "modules/blocks/icon/_position/icon_position_right.scss";
 @import "modules/blocks/icon/_position/icon_position_left.scss";
 @import "modules/blocks/icon/_position/icon_position_bottom.scss";
+
+/* INSTALL */
+@import "modules/blocks/install/install.scss";
+@import "modules/blocks/install/__description/install__description.scss";
+@import "modules/blocks/install/__gallery/install__gallery.scss";
+@import "modules/blocks/install/__steps/install__steps.scss";
+@import "modules/blocks/install/__symbol/install__symbol.scss";
+@import "modules/blocks/install/__text/install__text.scss";
+@import "modules/blocks/install/__title/install__title.scss";
+
+/* INSTALL-STEPS */
+@import "modules/blocks/install-steps/install-steps.scss";
+@import "modules/blocks/install-steps/__background/install-steps__background";
+@import "modules/blocks/install-steps/__icon/install-steps__icon.scss";
+@import "modules/blocks/install-steps/__item/install-steps__item.scss";
+@import "modules/blocks/install-steps/__list/install-steps__list.scss";
+@import "modules/blocks/install-steps/__subtitle/install-steps__subtitle.scss";
+
+/* DOTS */
+@import "modules/blocks/dots/dots.scss";
+@import "modules/blocks/dots/__primary/dots__primary.scss";
+
+/* SLIDER */
+@import "modules/blocks/slider/slider.scss";
+@import "modules/blocks/slider/slider_disable-transition";
+@import "modules/blocks/slider/__item/slider__item.scss";
+@import "modules/blocks/slider/__image/slider__image.scss";
+@import "modules/blocks/slider/__container/slider__container.scss";
+@import "modules/blocks/slider/__content-inner/slider__content-inner.scss";
+@import "modules/blocks/slider/__control/slider__control.scss";
+@import "modules/blocks/slider/__indicators/slider__indicators.scss";
+@import "modules/blocks/slider/__items/slider__items.scss";
+@import "modules/blocks/slider/__nameplate/slider__nameplate.scss";
+
+/* SEPTICS */
+@import "modules/blocks/septics/septics.scss";
+@import "modules/blocks/septics/__name/septics__name.scss";
+@import "modules/blocks/septics/__description/septics__description.scss";
+@import "modules/blocks/septics/__item/septics__item.scss";
+@import "modules/blocks/septics/__list/septics__list.scss";
+@import "modules/blocks/septics/__title/septics__title.scss";
+
+/* SEPTIC_CARD */
+@import "modules/blocks/septic-card/septic-card.scss";
+@import "modules/blocks/septic-card/__image/septic-card__image.scss";
+@import "modules/blocks/septic-card/__item/septic-card__item.scss";
+@import "modules/blocks/septic-card/__list/septic-card__list.scss";
+@import "modules/blocks/septic-card/__sticker/septic-card__sticker.scss";
+@import "modules/blocks/septic-card/__subtitle/septic-card__subtitle.scss";
+@import "modules/blocks/septic-card/__price/septic-card__price.scss";
+@import "modules/blocks/septic-card/__button/septic-card__button.scss";
