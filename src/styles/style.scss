@@ -118,3 +118,28 @@
 @import "modules/blocks/septic-card/__subtitle/septic-card__subtitle.scss";
 @import "modules/blocks/septic-card/__price/septic-card__price.scss";
 @import "modules/blocks/septic-card/__button/septic-card__button.scss";
+
+/* CALLBACK */
+@import "modules/blocks/callback/callback.scss";
+@import "modules/blocks/callback/__background/callback__background.scss";
+@import "modules/blocks/callback/__subtitle/callback__subtitle.scss";
+@import "modules/blocks/callback/__list/callback__list.scss";
+@import "modules/blocks/callback/__title/callback__title.scss";
+@import "modules/blocks/callback/__item/callback__item.scss";
+@import "modules/blocks/callback/__form/callback__form.scss";
+@import "modules/blocks/callback/__remark/callback__remark.scss";
+@import "modules/blocks/callback/__description/callback__description.scss";
+@import "modules/blocks/callback/__symbol/callback__symbol.scss";
+@import "modules/blocks/callback/__form-area/callback__form-area.scss";
+@import "modules/blocks/callback/__text/callback__text.scss";
+
+/* CALLBACK-FORM */
+@import "modules/blocks/callback-form/callback-form.scss";
+@import "modules/blocks/callback-form/__email/callback-form__email.scss";
+@import "modules/blocks/callback-form/__phone/callback-form__phone.scss";
+@import "modules/blocks/callback-form/__button/callback-form__button";
+@import "modules/blocks/callback-form/__valid/callback-form__valid.scss";
+@import "modules/blocks/callback-form/__comment/callback-form__comment.scss";
+@import "modules/blocks/callback-form/__agreement/callback-form__agreement.scss";
+@import "modules/blocks/callback-form/__checkbox/callback-form__checkbox.scss";
+@import "modules/blocks/callback-form/__check/callback-form__check.scss";

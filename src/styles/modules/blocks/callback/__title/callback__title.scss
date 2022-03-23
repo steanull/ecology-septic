@@ -1,0 +1,39 @@
+.callback__title {
+  @include fontTitle(400, 36px, 44px, 1px, #006D3C);
+  max-width: 660px;
+  padding: 50px 0;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 3;
+  margin: 112px 0 0 88px;
+
+  &:after {
+    content: '';
+    display: block;
+    height: 1px;
+    max-width: 192px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 40px;
+    background: #666666;
+  }
+
+  &:before {
+    content: 'Х';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    min-height: 122px;
+    position: absolute;
+    margin-left: -88px;
+    margin-top: -60px;
+    max-width: 105px;
+    width: 100%;
+    background: #DCE5DB;
+    border-radius: 6px;
+    @include fontTitle(700, 96px, 112px, 1px, #006D3C);
+  }
+}
