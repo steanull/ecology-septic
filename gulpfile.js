@@ -21,7 +21,7 @@ let path = {
 
     watch: {
         html: sourceFolder + "/**/*.html",
-        css: sourceFolder + "/styles/**/*slider__item.scss",
+        css: sourceFolder + "/styles/**/*.scss",
         js: sourceFolder + "/scripts/**/*.js",
         img: sourceFolder + "/images/**/*.+(png|jpg|gif|ico|svg|webp)"
     },
@@ -92,7 +92,7 @@ gulp.task('generate-favicon', function (done) {
                 pictureAspect: 'noChange',
                 themeColor: '#ffffff',
                 manifest: {
-                    name: 'ecology-septic',
+                    name: 'Steanull',
                     display: 'standalone',
                     orientation: 'notSet',
                     onConflict: 'override',
