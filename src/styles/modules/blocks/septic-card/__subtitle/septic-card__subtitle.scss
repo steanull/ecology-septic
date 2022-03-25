@@ -2,4 +2,8 @@
   @include fontTitle(400, 18px, 24px, 1px, #006D3C);
   margin: 15px 0 15px 21px;
   padding: 0;
+
+  @include media(1600px) {
+    @include fontTitle(400, 17px, 24px, 1px, #006D3C);
+  }
 }

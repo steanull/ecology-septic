@@ -5,4 +5,13 @@
   margin: 0 0 0 15px;
   padding: 0;
   text-transform: uppercase;
+
+  @include media(1600px) {
+    @include fontTitle(400, 26px, 32px, 1px, #00210E);
+  }
+
+  @include media(1401px) {
+    @include fontTitle(400, 22px, 28px, 1px, #00210E);
+    max-width: 140px;
+  }
 }

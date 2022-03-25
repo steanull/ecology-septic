@@ -1,0 +1,8 @@
+.gallery__image_size_large {
+  width: 780px;
+  height: 100%;
+
+  @include media(1600px) {
+    width: 735px;
+  }
+}

@@ -1,4 +1,7 @@
 .main-header__advantage_position_tr {
   right: 15%;
   margin-top: -450px;
+  @include media(1401px) {
+    margin-top: -390px;
+  }
 }

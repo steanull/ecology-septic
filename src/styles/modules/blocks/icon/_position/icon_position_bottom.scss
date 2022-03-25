@@ -1,3 +1,6 @@
 .icon_position_bottom {
   margin-top: 610px;
+  @include media(1401px) {
+    margin-top: 492px;
+  }
 }

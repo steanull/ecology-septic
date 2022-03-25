@@ -1,3 +1,5 @@
 .main-header__image {
-
+  @include media(1401px) {
+    width: 55%;
+  }
 }

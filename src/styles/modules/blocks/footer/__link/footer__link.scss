@@ -4,6 +4,10 @@
   position: relative;
   transition: .5s;
 
+  @include media(1600px) {
+    @include font(400, 16px, 20px, #4F6354);
+  }
+
   &:after {
     content: "";
     position: absolute;
@@ -13,6 +17,9 @@
     left: -55px;
     background-color: #4F6354;
     opacity: .4;
+    @include media(1600px) {
+      margin: 20px 0 0 55px;
+    }
   }
 
   &:hover {

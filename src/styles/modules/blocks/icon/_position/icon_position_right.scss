@@ -1,3 +1,6 @@
 .icon_position_right {
   margin-left: 605px;
+  @include media(1401px) {
+    margin-left: 482px;
+  }
 }

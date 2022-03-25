@@ -8,4 +8,9 @@
   &:hover {
     color: #4F6354;
   }
+
+  @include media(1401px) {
+    max-width: 260px;
+    @include font(400, 22px, 28px, #006D3C);
+  }
 }

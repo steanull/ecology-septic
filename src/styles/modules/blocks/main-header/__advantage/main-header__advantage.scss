@@ -5,4 +5,8 @@
   text-align: center;
   max-width: 220px;
   width: 100%;
+  @include media(1401px) {
+    @include font(400, 20px, 26px, #006D3C);
+    max-width: 200px;
+  }
 }

@@ -4,4 +4,8 @@
   flex-direction: row;
   max-width: 1482px;
   width: 100%;
+
+  @include media(1600px) {
+    max-width: 1300px;
+  }
 }

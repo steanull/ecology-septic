@@ -1,4 +1,7 @@
 .main-header__advantage_position_bl {
   left: 15%;
   margin-top: 650px;
+  @include media(1401px) {
+    margin-top: 530px;
+  }
 }

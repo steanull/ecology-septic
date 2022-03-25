@@ -3,4 +3,10 @@
   max-width: 76px;
   width: 100%;
   min-height: 76px;
+
+  @include media(1401px) {
+    max-width: 60px;
+    width: 100%;
+    min-height: 60px;
+  }
 }

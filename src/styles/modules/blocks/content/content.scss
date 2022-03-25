@@ -1,4 +1,8 @@
 .content {
   max-width: 1600px;
   width: 100%;
+
+  @include media(1600px) {
+    max-width: 1500px;
+  }
 }

@@ -3,4 +3,10 @@
   padding: 0;
   max-width: 1600px;
   width: 100%;
+  @include media(1601px) {
+    max-width: 1500px;
+  }
+  @include media(1401px) {
+    max-width: 1230px;
+  }
 }

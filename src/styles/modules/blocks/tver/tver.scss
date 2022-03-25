@@ -1,4 +1,7 @@
 .tver {
   max-width: 500px;
   width: 100%;
+  @include media(1401px) {
+    max-width: 400px;
+  }
 }

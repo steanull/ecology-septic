@@ -2,4 +2,13 @@
   max-width: 106px;
   width: 100%;
   min-height: 85px;
+
+  @include media(1600px) {
+    max-width: 96px;
+  }
+
+  @include media(1401px) {
+    max-width: 86px;
+    min-height: 70px;
+  }
 }
