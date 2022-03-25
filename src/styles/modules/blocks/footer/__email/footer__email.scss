@@ -1,0 +1,26 @@
+.footer__email {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  text-decoration: none;
+  @include font(400, 20px, 26px, #006D3C);
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 1px;
+    margin: 28px 0 0 55px;
+    background-color: #4F6354;
+    opacity: .4;
+  }
+
+  &:before {
+    content: url(../img/email.svg);
+    padding: 0 36px 0 4px;
+    height: 16px;
+    max-width: 16px;
+    width: 100%;
+  }
+}
