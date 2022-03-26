@@ -7,4 +7,9 @@
     max-width: 82px;
     min-height: 82px;
   }
+
+  @include media(1279px) {
+    max-width: 68px;
+    min-height: 68px;
+  }
 }

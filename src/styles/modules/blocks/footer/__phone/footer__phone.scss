@@ -10,6 +10,10 @@
     @include font(400, 18px, 34px, #006D3C);
   }
 
+  @include media(1279px) {
+    @include font(400, 16px, 28px, #006D3C);
+  }
+
   &:after {
     content: "";
     position: absolute;
@@ -22,6 +26,10 @@
     @include media(1401px) {
       width: 140px;
       margin: 28px 0 0 52px;
+    }
+
+    @include media(1279px) {
+      width: 125px;
     }
   }
   &:before {

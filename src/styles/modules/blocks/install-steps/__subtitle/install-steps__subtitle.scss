@@ -10,4 +10,10 @@
     @include fontTitle(400, 18px, 24px, 0.5px, #006D3C);
     max-width: 150px;
   }
+
+  @include media(1279px) {
+    @include fontTitle(400, 15px, 24px, 0.5px, #006D3C);
+    max-width: 128px;
+    margin: 15px 0 35px;
+  }
 }

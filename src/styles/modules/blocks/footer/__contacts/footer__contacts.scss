@@ -11,4 +11,9 @@
     max-width: 530px;
     margin: 0 30px 0 10px;
   }
+
+  @include media(1279px) {
+    max-width: 450px;
+    margin: 0 10px 0 0;
+  }
 }

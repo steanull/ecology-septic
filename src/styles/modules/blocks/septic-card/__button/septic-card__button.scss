@@ -21,6 +21,12 @@
     bottom: 7px;
   }
 
+  @include media(1279px) {
+    @include font(600, 14px, 20px, #006D3C);
+    max-width: 94px;
+    bottom: 9px;
+  }
+
   &:after {
     content: url("../img/basket.svg");
     padding: 3px 0 0 5px;
@@ -31,6 +37,10 @@
 
     @include media(1401px) {
       @include font(600, 12px, 20px, #4F6354);
+    }
+
+    @include media(1279px) {
+      @include font(600, 14px, 20px, #4F6354);
     }
 
     &:after {

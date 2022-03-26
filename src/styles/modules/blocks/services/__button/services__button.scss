@@ -20,4 +20,8 @@
     max-width: 154px;
     min-height: 38px;
   }
+
+  @include media(1279px) {
+    margin-left: 35px;
+  }
 }

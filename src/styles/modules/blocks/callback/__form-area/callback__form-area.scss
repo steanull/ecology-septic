@@ -7,4 +7,8 @@
   @include media(1401px) {
     margin: 80px 40px 0 0;
   }
+
+  @include media(1279px) {
+    margin: 0 40px 0 0;
+  }
 }

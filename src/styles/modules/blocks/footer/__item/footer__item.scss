@@ -10,8 +10,14 @@
     height: 16px;
     max-width: 16px;
     width: 100%;
+
     @include media(1600px) {
       padding: 1px 0 14px;
+    }
+
+    @include media(1279px) {
+      padding: 1px 0 14px;
+      margin: 0 0 0 -15px;
     }
   }
 }

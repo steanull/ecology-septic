@@ -4,4 +4,8 @@
   @include media(1401px) {
     @include font(400, 14px, 20px, #4F6354);
   }
+
+  @include media(1279px) {
+    @include font(400, 13px, 16px, #4F6354);
+  }
 }

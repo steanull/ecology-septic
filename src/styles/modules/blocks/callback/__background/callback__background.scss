@@ -12,4 +12,9 @@
     width: 600px;
     min-height: 810px;
   }
+
+  @include media(1279px) {
+    width: 500px;
+    min-height: 730px;
+  }
 }

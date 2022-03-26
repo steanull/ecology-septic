@@ -1,3 +1,7 @@
 .services__symbol {
   @include font (400, 36px, 44px, #006D3C);
+
+  @include media(1279px) {
+    @include font (400,26px, 38px, #006D3C);
+  }
 }

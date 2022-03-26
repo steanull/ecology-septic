@@ -14,4 +14,9 @@
     @include fontTitle(400, 22px, 28px, 1px, #00210E);
     max-width: 140px;
   }
+
+  @include media(1279px) {
+    @include fontTitle(400, 18px, 24px, 0.7px, #00210E);
+    max-width: 90px;
+  }
 }

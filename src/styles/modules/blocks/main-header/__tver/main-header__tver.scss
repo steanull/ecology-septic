@@ -2,8 +2,14 @@
   position: absolute;
   right: 3%;
   margin-top: 420px;
+
   @include media(1401px) {
     right: 8%;
+    margin-top: 380px;
+  }
+
+  @include media(1279px) {
+    right: 1%;
     margin-top: 380px;
   }
 }

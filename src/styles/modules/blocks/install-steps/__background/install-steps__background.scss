@@ -5,4 +5,8 @@
   position: absolute;
   left: 0;
   z-index: -1;
+
+  @include media(1279px) {
+    min-height: 160px;
+  }
 }

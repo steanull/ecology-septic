@@ -15,6 +15,12 @@
     max-width: 660px;
   }
 
+  @include media(1279px) {
+    @include fontTitle(400, 26px, 32px, 1px, #006D3C);
+    margin: 55px 0 0 65px;
+    max-width: 660px;
+  }
+
   &:after {
     content: '';
     display: block;
@@ -27,6 +33,11 @@
 
     @include media(1401px) {
       margin-top: 8px;
+      margin-left: 40px;
+    }
+
+    @include media(1279px) {
+      margin-top: 4px;
       margin-left: 40px;
     }
   }
@@ -50,6 +61,14 @@
     @include media(1401px) {
       @include fontTitle(700, 80px, 100px, 1px, #006D3C);
       margin-left: -78px;
+    }
+
+    @include media(1279px) {
+      @include fontTitle(700, 70px, 90px, 1px, #006D3C);
+      margin-left: -65px;
+      margin-top: -50px;
+      max-width: 85px;
+      min-height: 100px;
     }
   }
 }

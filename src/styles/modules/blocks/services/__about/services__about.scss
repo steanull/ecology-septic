@@ -15,4 +15,10 @@
     width: 100%;
     margin-left: 80px;
   }
+
+  @include media(1279px) {
+    max-width: 400px;
+    width: 100%;
+    margin-left: 70px;
+  }
 }

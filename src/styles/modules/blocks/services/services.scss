@@ -10,4 +10,9 @@
     grid-template-rows: 256px 260px 1fr;
     padding: 0 0 34px 0;
   }
+
+  @include media(1279px) {
+    grid-template-rows: 230px 240px 1fr;
+    padding: 0 0 34px 0;
+  }
 }
