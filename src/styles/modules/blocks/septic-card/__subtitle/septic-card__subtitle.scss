@@ -6,4 +6,9 @@
   @include media(1600px) {
     @include fontTitle(400, 17px, 24px, 1px, #006D3C);
   }
+
+  @include media(1401px) {
+    @include fontTitle(400, 16px, 20px, 0.4px, #006D3C);
+    margin: 15px 0 15px 12px;
+  }
 }

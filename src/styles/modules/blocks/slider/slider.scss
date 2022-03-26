@@ -5,4 +5,8 @@
     @include media(1600px) {
         max-width: 96%;
     }
+
+    @include media(1401px) {
+        max-width: 90%;
+    }
 }

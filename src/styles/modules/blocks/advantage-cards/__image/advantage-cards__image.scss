@@ -4,4 +4,8 @@
   object-fit: contain;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
+
+  @include media(1401px) {
+    max-width: 188px;
+  }
 }

@@ -5,4 +5,9 @@
   gap: 0;
   height: 100%;
   padding: 0 0 64px 0;
+
+  @include media(1401px) {
+    grid-template-rows: 256px 260px 1fr;
+    padding: 0 0 34px 0;
+  }
 }

@@ -9,6 +9,12 @@
   grid-column-end: 3;
   margin: 112px 0 0 88px;
 
+  @include media(1401px) {
+    @include fontTitle(400, 30px, 38px, 1px, #006D3C);
+    margin: 70px 0 0 78px;
+    max-width: 660px;
+  }
+
   &:after {
     content: '';
     display: block;
@@ -18,6 +24,11 @@
     margin-top: 10px;
     margin-left: 40px;
     background: #666666;
+
+    @include media(1401px) {
+      margin-top: 8px;
+      margin-left: 40px;
+    }
   }
 
   &:before {
@@ -35,5 +46,10 @@
     background: #DCE5DB;
     border-radius: 6px;
     @include fontTitle(700, 96px, 112px, 1px, #006D3C);
+
+    @include media(1401px) {
+      @include fontTitle(700, 80px, 100px, 1px, #006D3C);
+      margin-left: -78px;
+    }
   }
 }

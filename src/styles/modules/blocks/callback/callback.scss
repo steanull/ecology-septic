@@ -8,4 +8,8 @@
   @include media(1600px) {
     max-width: 1300px;
   }
+
+  @include media(1401px) {
+    max-width: 1200px;
+  }
 }

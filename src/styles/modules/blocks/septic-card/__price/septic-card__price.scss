@@ -2,4 +2,9 @@
   @include font(500, 16px, 24px, #4F6354);
   margin: 14px 0 14px 21px;
   padding: 0;
+
+  @include media(1401px) {
+    @include font(500, 14px, 20px, #4F6354);
+    margin: 12px 0 12px 14px;
+  }
 }

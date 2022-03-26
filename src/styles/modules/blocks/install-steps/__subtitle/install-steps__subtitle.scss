@@ -5,4 +5,9 @@
   text-align: center;
   margin: 15px 0 5px;
   padding: 0;
+
+  @include media(1401px) {
+    @include fontTitle(400, 18px, 24px, 0.5px, #006D3C);
+    max-width: 150px;
+  }
 }

@@ -3,4 +3,8 @@
   margin: 0;
   box-sizing: border-box;
   @include font (400, 16px, 24px, #4F6354);
+  @include media(1401px) {
+    @include font (400, 14px, 22px, #4F6354);
+    padding: 0 45px 10px;
+  }
 }

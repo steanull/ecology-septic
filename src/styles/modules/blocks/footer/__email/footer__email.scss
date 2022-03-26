@@ -6,6 +6,10 @@
   text-decoration: none;
   @include font(400, 20px, 26px, #006D3C);
 
+  @include media(1401px) {
+    @include font(400, 18px, 34px, #006D3C);
+  }
+
   &:after {
     content: "";
     position: absolute;
@@ -14,6 +18,11 @@
     margin: 28px 0 0 55px;
     background-color: #4F6354;
     opacity: .4;
+
+    @include media(1401px) {
+      width: 155px;
+      margin: 28px 0 0 52px;
+    }
   }
 
   &:before {
@@ -22,5 +31,11 @@
     height: 16px;
     max-width: 16px;
     width: 100%;
+
+    @include media(1401px) {
+      padding: 0 32px 0 4px;
+      height: 14px;
+      max-width: 14px;
+    }
   }
 }

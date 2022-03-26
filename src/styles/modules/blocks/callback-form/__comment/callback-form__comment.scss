@@ -12,6 +12,12 @@
   font-family: inherit;
   font-size: 20px;
 
+  @include media(1401px) {
+    max-width: 340px;
+    min-height: 52px;
+    font-size: 18px;
+  }
+
   &:focus {
     border: 2px solid #4F6354;
     outline: 0;

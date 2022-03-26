@@ -4,4 +4,8 @@
   min-height: 348px;
   background-color: #F0F1EC;
   border-radius: 6px;
+
+  @include media(1401px) {
+    max-width: 188px;
+  }
 }

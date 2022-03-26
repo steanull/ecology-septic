@@ -5,4 +5,8 @@
   @include media(1600px) {
     width: 735px;
   }
+
+  @include media(1401px) {
+    max-width: 605px;
+  }
 }

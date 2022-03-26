@@ -11,7 +11,13 @@
   padding: 0;
   border: 0;
   transition: .6s;
+
   &:hover {
     background-color: #4F6354;
+  }
+
+  @include media(1401px) {
+    max-width: 154px;
+    min-height: 38px;
   }
 }

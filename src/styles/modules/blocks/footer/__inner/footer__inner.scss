@@ -11,4 +11,8 @@
   @include media(1600px) {
     max-width: 1500px;
   }
+
+  @include media(1401px) {
+    max-width: 1230px;
+  }
 }

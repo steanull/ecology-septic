@@ -14,12 +14,25 @@
   justify-content: center;
   align-items: center;
   transition: .5s;
+
+  @include media(1401px) {
+    @include font(600, 12px, 20px, #006D3C);
+    max-width: 81px;
+    bottom: 7px;
+  }
+
   &:after {
     content: url("../img/basket.svg");
     padding: 3px 0 0 5px;
   }
+
   &:hover {
     @include font(600, 14px, 20px, #4F6354);
+
+    @include media(1401px) {
+      @include font(600, 12px, 20px, #4F6354);
+    }
+
     &:after {
       content: url("../img/bag-gray.svg");
     }

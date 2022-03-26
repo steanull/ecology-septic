@@ -4,4 +4,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 0;
   height: 100%;
+
+  @include media(1401px) {
+    grid-template-rows: 250px 250px 1fr;
+  }
 }

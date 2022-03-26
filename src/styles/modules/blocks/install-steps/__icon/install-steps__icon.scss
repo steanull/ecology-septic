@@ -2,4 +2,9 @@
   max-width: 86px;
   width: 100%;
   min-height: 86px;
+
+  @include media(1401px) {
+    max-width: 82px;
+    min-height: 82px;
+  }
 }

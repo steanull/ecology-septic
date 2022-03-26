@@ -9,4 +9,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @include media(1401px) {
+    max-width: 500px;
+    width: 100%;
+    margin-left: 80px;
+  }
 }
