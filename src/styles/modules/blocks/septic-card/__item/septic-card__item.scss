@@ -10,6 +10,11 @@
     padding: 0 0 0 21px;
   }
 
+  @include media(699px) {
+    padding: 0 0 0 15px;
+    @include font(400, 10px, 14px, #4F6354);
+  }
+
   &:before {
     content: url('../img/ellipse.svg');
     position: absolute;
@@ -18,5 +23,10 @@
     height: 16px;
     max-width: 16px;
     width: 100%;
+
+    @include media(699px) {
+      margin-left: -17px;
+      padding: 1px 4px 3px;
+    }
   }
 }
