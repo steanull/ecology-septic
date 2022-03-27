@@ -14,7 +14,7 @@
   @include font(500, 11px, 16px, #006D3C);
   letter-spacing: 1px;
 
-  @include media(1401px) {
+  @include media(1551px) {
     max-width: 47px;
     min-height: 20px;
     @include font(500, 10px, 14px, #006D3C);
@@ -27,7 +27,7 @@
     max-width: 16px;
     width: 100%;
 
-    @include media(1401px) {
+    @include media(1551px) {
       padding: 6px 4px 4px;
       height: 14px;
       max-width: 14px;

@@ -9,7 +9,7 @@
     color: #4F6354;
   }
 
-  @include media(1401px) {
+  @include media(1551px) {
     max-width: 260px;
     @include font(400, 22px, 28px, #006D3C);
   }
@@ -17,5 +17,9 @@
   @include media(1279px) {
     max-width: 195px;
     @include font(400, 20px, 24px, #006D3C)
+  }
+
+  @include media(699px) {
+    display: none;
   }
 }

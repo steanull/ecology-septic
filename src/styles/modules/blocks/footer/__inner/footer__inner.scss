@@ -8,11 +8,11 @@
   width: 100%;
   position: relative;
 
-  @include media(1600px) {
+  @include media(1699px) {
     max-width: 1500px;
   }
 
-  @include media(1401px) {
+  @include media(1551px) {
     max-width: 1230px;
   }
 

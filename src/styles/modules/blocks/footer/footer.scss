@@ -12,4 +12,8 @@
     z-index:-1;
     background-color: #F0F1EC;
   }
+
+  @include media(699px) {
+    display: none;
+  }
 }

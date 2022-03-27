@@ -9,6 +9,10 @@
     position: absolute;
     right: 0;
     z-index: 15;
+
+    @include media(699px) {
+        bottom: -30px;
+    }
 }
 
 .slider__indicators li {
@@ -22,6 +26,11 @@
     margin-right: 3px;
     text-indent: -999px;
     width: 47px;
+
+    @include media(699px) {
+        width: 32px;
+        height: 5px;
+    }
 }
 
 .slider__indicators li.active {

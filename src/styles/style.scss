@@ -21,10 +21,13 @@
 @import "modules/blocks/top-header/__item/top-header__item.scss";
 @import "modules/blocks/top-header/__link/top-header__link.scss";
 @import "modules/blocks/top-header/__phone/top-header__phone.scss";
+@import "modules/blocks/top-header/__mobile-menu/top-header__mobile-menu.scss";
 
 /* MAIN-HEADER */
 @import "modules/blocks/main-header/main-header.scss";
 @import "modules/blocks/main-header/__image/main-header__image.scss";
+@import "modules/blocks/main-header/__image/_design/main-header__image_design_desktop.scss";
+@import "modules/blocks/main-header/__image/_design/main-header__image_design_mobile.scss";
 @import "modules/blocks/main-header/__advantage/main-header__advantage.scss";
 @import "modules/blocks/main-header/__advantage/_position/main-header__advantage_position_tr.scss";
 @import "modules/blocks/main-header/__advantage/_position/main-header__advantage_position_tl.scss";
@@ -83,6 +86,7 @@
 @import "modules/blocks/install-steps/__item/install-steps__item.scss";
 @import "modules/blocks/install-steps/__list/install-steps__list.scss";
 @import "modules/blocks/install-steps/__subtitle/install-steps__subtitle.scss";
+@import "modules/blocks/install-steps/__dots/install-steps__dots.scss";
 
 /* DOTS */
 @import "modules/blocks/dots/dots.scss";

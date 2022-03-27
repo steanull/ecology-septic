@@ -16,12 +16,16 @@
     background-color: #4F6354;
   }
 
-  @include media(1401px) {
+  @include media(1551px) {
     max-width: 154px;
     min-height: 38px;
   }
 
   @include media(1279px) {
     margin-left: 35px;
+  }
+
+  @include media(699px) {
+    margin: 20px 0;
   }
 }

@@ -15,7 +15,7 @@
   align-items: center;
   transition: .5s;
 
-  @include media(1401px) {
+  @include media(1551px) {
     @include font(600, 12px, 20px, #006D3C);
     max-width: 81px;
     bottom: 7px;
@@ -35,7 +35,7 @@
   &:hover {
     @include font(600, 14px, 20px, #4F6354);
 
-    @include media(1401px) {
+    @include media(1551px) {
       @include font(600, 12px, 20px, #4F6354);
     }
 

@@ -1,11 +1,16 @@
 .icon_position_right {
   margin-left: 605px;
 
-  @include media(1401px) {
+  @include media(1551px) {
     margin-left: 482px;
   }
 
   @include media(1279px) {
     margin-left: 425px;
+  }
+
+  @include media(699px) {
+    top: 148px;
+    margin-left: 250px;
   }
 }

@@ -5,7 +5,7 @@
   display: flex;
   @include font(400, 20px, 26px, #4F6354);
 
-  @include media(1401px) {
+  @include media(1551px) {
     @include font(400, 16px, 34px, #4F6354);
   }
 

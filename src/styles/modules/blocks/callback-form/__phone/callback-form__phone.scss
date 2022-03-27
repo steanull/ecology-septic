@@ -9,7 +9,7 @@
   @include font(400, 20px, 32px, #4F6354);
   border: 0;
 
-  @include media(1401px) {
+  @include media(1551px) {
     max-width: 340px;
     min-height: 52px;
     @include font(400, 18px, 28px, #4F6354);

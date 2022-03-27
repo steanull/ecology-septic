@@ -1,0 +1,7 @@
+.main-header__image_design_mobile {
+  display: none;
+
+  @include media(699px) {
+    display: block;
+  }
+}

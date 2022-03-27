@@ -10,6 +10,10 @@
     transform: translateY(-50%);
     max-width: 40px;
     width: 100%;
+
+    @include media(699px) {
+        max-width: 14px;
+    }
 }
 
 .slider__control::before {
@@ -32,8 +36,12 @@
 .slider__control[data-slide='next'] {
     right: -80px;
 
-    @include media(1600px) {
+    @include media(1699px) {
         right: -60px;
+    }
+
+    @include media(699px) {
+        right: -20px;
     }
 }
 
@@ -44,8 +52,12 @@
 .slider__control[data-slide='prev'] {
     left: -80px;
 
-    @include media(1600px) {
+    @include media(1699px) {
         left: -60px;
+    }
+
+    @include media(699px) {
+        left: -20px;
     }
 }
 

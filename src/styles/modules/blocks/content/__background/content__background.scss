@@ -6,4 +6,10 @@
   z-index: -1;
   left: 0;
   background-color: #F0F1EC;
+
+  @include media(699px) {
+    width: 50%;
+    top: 300px;
+    min-height: 106px;
+  }
 }

@@ -2,11 +2,15 @@
     position: relative;
     max-width: 100%;
 
-    @include media(1600px) {
-        max-width: 96%;
+    @include media(1699px) {
+        max-width: 95%;
     }
 
-    @include media(1401px) {
+    @include media(1551px) {
         max-width: 90%;
+    }
+
+    @include media(699px) {
+        max-width: 100%;
     }
 }

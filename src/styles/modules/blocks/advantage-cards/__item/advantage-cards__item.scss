@@ -5,11 +5,16 @@
   background-color: #F0F1EC;
   border-radius: 6px;
 
-  @include media(1401px) {
+  @include media(1551px) {
     max-width: 188px;
   }
 
   @include media(1279px) {
     max-width: 158px;
+  }
+
+  @include media(699px) {
+    max-width: 250px;
+    margin: 10px 0 20px;
   }
 }

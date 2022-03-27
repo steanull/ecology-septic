@@ -5,11 +5,16 @@
   gap: 0;
   height: 100%;
 
-  @include media(1401px) {
+  @include media(1551px) {
     grid-template-rows: 250px 250px 1fr;
   }
 
   @include media(1279px) {
     grid-template-rows: 200px 180px 1fr;
+  }
+
+  @include media(699px) {
+    grid-template-rows: 120px 520px 1fr;
+    grid-template-columns: 1fr;
   }
 }

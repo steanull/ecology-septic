@@ -1,4 +1,8 @@
 .top-header__menu {
   margin: 0;
   padding: 0;
+
+  @include media(699px) {
+    display: none;
+  }
 }

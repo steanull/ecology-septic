@@ -3,4 +3,11 @@
   justify-content: flex-start;
   flex-direction: row;
   align-items: center;
+
+  @include media(699px) {
+    max-width: 130px;
+    min-width: 125px;
+    width: 100%;
+    margin-right: auto;
+  }
 }

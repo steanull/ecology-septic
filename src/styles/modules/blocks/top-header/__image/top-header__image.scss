@@ -3,11 +3,11 @@
   width: 100%;
   min-height: 85px;
 
-  @include media(1600px) {
+  @include media(1699px) {
     max-width: 96px;
   }
 
-  @include media(1401px) {
+  @include media(1551px) {
     max-width: 86px;
     min-height: 70px;
   }
@@ -15,5 +15,10 @@
   @include media(1279px) {
     max-width: 70px;
     min-height: 50px;
+  }
+
+  @include media(699px) {
+    max-width: 50px;
+    min-height: 30px;
   }
 }
