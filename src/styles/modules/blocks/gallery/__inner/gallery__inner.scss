@@ -1,0 +1,25 @@
+.gallery__inner {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1600px;
+  gap: 40px;
+  width: 100%;
+  margin: 40px 0 60px 0;
+
+  @include media(1699px) {
+    max-width: 1500px;
+    gap: 30px;
+  }
+
+  @include media(1551px) {
+    max-width: 1240px;
+    gap: 20px;
+    width: 100%;
+    margin: 30px 0 50px 0;
+  }
+
+  @include media(1279px) {
+    margin: 10px 0 60px 0;
+  }
+}

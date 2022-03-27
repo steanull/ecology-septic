@@ -1,0 +1,33 @@
+.services__about {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-row-end: 4;
+  grid-column-end: 3;
+  max-width: 532px;
+  width: 100%;
+  margin-left: 142px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include media(1551px) {
+    max-width: 500px;
+    width: 100%;
+    margin-left: 80px;
+  }
+
+  @include media(1279px) {
+    max-width: 400px;
+    width: 100%;
+    margin-left: 70px;
+  }
+
+  @include media(699px) {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-row-end: 5;
+    grid-column-end: 2;
+    width: 100%;
+    margin: 0;
+  }
+}

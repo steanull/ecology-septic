@@ -1,0 +1,13 @@
+.tver__title {
+  @include fontTitle(400, 36px, 44px, 1px, #006D3C);
+  margin: 0;
+  padding: 6px 0;
+
+  @include media(1551px) {
+    @include fontTitle(400, 28px, 36px, 1px, #006D3C);
+  }
+
+  @include media(699px) {
+    @include fontTitle(400, 24px, 32px, 1px, #006D3C);
+  }
+}

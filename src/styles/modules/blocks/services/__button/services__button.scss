@@ -1,0 +1,31 @@
+.services__button {
+  max-width: 164px;
+  width: 100%;
+  min-height: 42px;
+  background-color: #006D3C;
+  border-radius: 6px;
+  text-transform: uppercase;
+  margin-left: 45px;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 0;
+  border: 0;
+  transition: .6s;
+
+  &:hover {
+    background-color: #4F6354;
+  }
+
+  @include media(1551px) {
+    max-width: 154px;
+    min-height: 38px;
+  }
+
+  @include media(1279px) {
+    margin-left: 35px;
+  }
+
+  @include media(699px) {
+    margin: 20px 0;
+  }
+}

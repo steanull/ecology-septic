@@ -1,0 +1,24 @@
+.callback-form__email {
+  border-radius: 6px;
+  margin: 35px 0 35px;
+  max-width: 355px;
+  width: 100%;
+  min-height: 63px;
+  box-sizing: border-box;
+  padding: 0 0 0 25px;
+  @include font(400, 20px, 32px, #4F6354);
+  background-color: #FBFDF8;
+  border: 0;
+
+  @include media(1551px) {
+    max-width: 340px;
+    min-height: 52px;
+    @include font(400, 18px, 28px, #4F6354);
+  }
+
+  &:focus {
+    border: 2px solid #4F6354;
+    outline: 0;
+    outline-offset: 0;
+  }
+}

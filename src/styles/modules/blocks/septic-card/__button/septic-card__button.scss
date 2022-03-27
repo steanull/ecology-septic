@@ -1,0 +1,50 @@
+.septic-card__button {
+  border: 0;
+  background-color: #F0F1EC;
+  max-width: 101px;
+  width: 100%;
+  min-height: 20px;
+  @include font(600, 14px, 20px, #006D3C);
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+
+  @include media(1551px) {
+    @include font(600, 12px, 20px, #006D3C);
+    max-width: 81px;
+    bottom: 7px;
+  }
+
+  @include media(1279px) {
+    @include font(600, 14px, 20px, #006D3C);
+    max-width: 94px;
+    bottom: 9px;
+  }
+
+  &:after {
+    content: url("../img/basket.svg");
+    padding: 3px 0 0 5px;
+  }
+
+  &:hover {
+    @include font(600, 14px, 20px, #4F6354);
+
+    @include media(1551px) {
+      @include font(600, 12px, 20px, #4F6354);
+    }
+
+    @include media(1279px) {
+      @include font(600, 14px, 20px, #4F6354);
+    }
+
+    &:after {
+      content: url("../img/bag-gray.svg");
+    }
+  }
+}

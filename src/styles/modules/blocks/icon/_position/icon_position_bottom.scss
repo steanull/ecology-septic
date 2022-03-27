@@ -1,0 +1,15 @@
+.icon_position_bottom {
+  margin-top: 610px;
+
+  @include media(1551px) {
+    margin-top: 492px;
+  }
+
+  @include media(1279px) {
+    margin-top: 440px;
+  }
+
+  @include media(699px) {
+    top: -170px;
+  }
+}

@@ -1,0 +1,22 @@
+.septic-card__item {
+  margin: 5px 0 0 0;
+  padding: 0 0 0 20px;
+
+  @include media(1551px) {
+    padding: 0 0 0 12px;
+  }
+
+  @include media(1279px) {
+    padding: 0 0 0 21px;
+  }
+
+  &:before {
+    content: url('../img/ellipse.svg');
+    position: absolute;
+    margin-left: -20px;
+    padding: 0 4px 4px;
+    height: 16px;
+    max-width: 16px;
+    width: 100%;
+  }
+}

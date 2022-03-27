@@ -1,0 +1,7 @@
+.main-header__image_design_desktop {
+  display: block;
+
+  @include media(699px) {
+    display: none;
+  }
+}

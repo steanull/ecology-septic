@@ -1,0 +1,11 @@
+.top-header__item {
+  margin: 0 16px;
+
+  @include media(1551px) {
+    margin: 0 12px;
+  }
+
+  @include media(1279px) {
+    margin: 0 10px;
+  }
+}

@@ -1,0 +1,22 @@
+.main-header__advantage {
+  position: absolute;
+  @include font(400, 24px, 32px, #006D3C);
+  text-decoration: none;
+  text-align: center;
+  max-width: 220px;
+  width: 100%;
+
+  @include media(1551px) {
+    @include font(400, 20px, 26px, #006D3C);
+    max-width: 200px;
+  }
+
+  @include media(1279px) {
+    @include font(400, 18px, 24px, #006D3C);
+    max-width: 180px;
+  }
+
+  @include media(699px) {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.callback__form-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
+
+  @include media(1551px) {
+    margin: 80px 40px 0 0;
+  }
+
+  @include media(1279px) {
+    margin: 0 40px 0 0;
+  }
+}

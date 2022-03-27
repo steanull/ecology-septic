@@ -1,0 +1,20 @@
+.install-steps__icon {
+  max-width: 86px;
+  width: 100%;
+  min-height: 86px;
+
+  @include media(1551px) {
+    max-width: 82px;
+    min-height: 82px;
+  }
+
+  @include media(1279px) {
+    max-width: 68px;
+    min-height: 68px;
+  }
+
+  @include media(699px) {
+    max-width: 74px;
+    min-height: 74px;
+  }
+}

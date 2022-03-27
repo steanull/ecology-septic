@@ -1,0 +1,23 @@
+.footer__item {
+  margin: 10px 0;
+  position: relative;
+
+  &:before {
+    content: url(../img/ellipse.svg);
+    position: absolute;
+    margin: 0 0 0 -20px;
+    padding: 2px 0 14px;
+    height: 16px;
+    max-width: 16px;
+    width: 100%;
+
+    @include media(1699px) {
+      padding: 1px 0 14px;
+    }
+
+    @include media(1279px) {
+      padding: 1px 0 14px;
+      margin: 0 0 0 -15px;
+    }
+  }
+}

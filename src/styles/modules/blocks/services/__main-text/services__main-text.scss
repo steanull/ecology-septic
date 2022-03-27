@@ -1,0 +1,24 @@
+.services__main-text {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 3;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+
+  @include media(1279px) {
+    max-width: 900px;
+  }
+
+  @include media(699px) {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+  }
+}

@@ -1,0 +1,15 @@
+.install-steps__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  @include media(699px) {
+    background-color: #F0F1EC;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 160px;
+  }
+}

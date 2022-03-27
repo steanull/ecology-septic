@@ -1,0 +1,172 @@
+@import "modules/fonts.scss";
+@import "modules/variables.scss";
+@import "modules/mixins.scss";
+@import "modules/blocks/page/page.scss";
+@import "modules/blocks/content/content.scss";
+@import "modules/blocks/content/__background/content__background.scss";
+@import "modules/blocks/offset/offset.scss";
+
+/* HEADER */
+@import "modules/blocks/header/header.scss";
+@import "modules/blocks/header/__top-header/header__top-header.scss";
+@import "modules/blocks/header/__main-header/header__main-header.scss";
+
+/* TOP-HEADER */
+@import "modules/blocks/top-header/top-header.scss";
+@import "modules/blocks/top-header/__logo/top-header__logo.scss";
+@import "modules/blocks/top-header/__image/top-header__image.scss";
+@import "modules/blocks/top-header/__title/top-header__title.scss";
+@import "modules/blocks/top-header/__menu/top-header__menu.scss";
+@import "modules/blocks/top-header/__list/top-header__list.scss";
+@import "modules/blocks/top-header/__item/top-header__item.scss";
+@import "modules/blocks/top-header/__link/top-header__link.scss";
+@import "modules/blocks/top-header/__phone/top-header__phone.scss";
+@import "modules/blocks/top-header/__mobile-menu/top-header__mobile-menu.scss";
+
+/* MAIN-HEADER */
+@import "modules/blocks/main-header/main-header.scss";
+@import "modules/blocks/main-header/__image/main-header__image.scss";
+@import "modules/blocks/main-header/__image/_design/main-header__image_design_desktop.scss";
+@import "modules/blocks/main-header/__image/_design/main-header__image_design_mobile.scss";
+@import "modules/blocks/main-header/__advantage/main-header__advantage.scss";
+@import "modules/blocks/main-header/__advantage/_position/main-header__advantage_position_tr.scss";
+@import "modules/blocks/main-header/__advantage/_position/main-header__advantage_position_tl.scss";
+@import "modules/blocks/main-header/__advantage/_position/main-header__advantage_position_bl.scss";
+@import "modules/blocks/main-header/__tver/main-header__tver.scss";
+@import "modules/blocks/main-header/__icon/main-header__icon.scss";
+
+/* TVER */
+@import "modules/blocks/tver/tver.scss";
+@import "modules/blocks/tver/__title/tver__title.scss";
+@import "modules/blocks/tver/__description/tver__description.scss";
+@import "modules/blocks/tver/__button/tver__button.scss";
+
+/* SERVICES */
+@import "modules/blocks/services/services.scss";
+@import "modules/blocks/services/__title/services__title.scss";
+@import "modules/blocks/services/__description/services__description.scss";
+@import "modules/blocks/services/__cards/services__cards.scss";
+@import "modules/blocks/services/__about/services__about.scss";
+@import "modules/blocks/services/__main-text/services__main-text.scss";
+@import "modules/blocks/services/__symbol/services__symbol.scss";
+@import "modules/blocks/services/__button/services__button.scss";
+
+/* ADVANTAGE-CARDS */
+@import "modules/blocks/advantage-cards/advantage-cards.scss";
+@import "modules/blocks/advantage-cards/__list/advantage-cards__list.scss";
+@import "modules/blocks/advantage-cards/__item/advantage-cards__item.scss";
+@import "modules/blocks/advantage-cards/__subtitle/advantage-cards__subtitle.scss";
+@import "modules/blocks/advantage-cards/__description/advantage-cards__description.scss";
+@import "modules/blocks/advantage-cards/__button/advantage-cards__button.scss";
+@import "modules/blocks/advantage-cards/__image/advantage-cards__image.scss";
+
+/* ICON */
+@import "modules/blocks/icon/icon.scss";
+@import "modules/blocks/icon/__stroke/icon__stroke.scss";
+@import "modules/blocks/icon/__primary/icon__primary.scss";
+@import "modules/blocks/icon/__secondary/icon__secondary.scss";
+@import "modules/blocks/icon/_position/icon_position_top.scss";
+@import "modules/blocks/icon/_position/icon_position_right.scss";
+@import "modules/blocks/icon/_position/icon_position_left.scss";
+@import "modules/blocks/icon/_position/icon_position_bottom.scss";
+
+/* INSTALL */
+@import "modules/blocks/install/install.scss";
+@import "modules/blocks/install/__description/install__description.scss";
+@import "modules/blocks/install/__gallery/install__gallery.scss";
+@import "modules/blocks/install/__steps/install__steps.scss";
+@import "modules/blocks/install/__symbol/install__symbol.scss";
+@import "modules/blocks/install/__text/install__text.scss";
+@import "modules/blocks/install/__title/install__title.scss";
+
+/* INSTALL-STEPS */
+@import "modules/blocks/install-steps/install-steps.scss";
+@import "modules/blocks/install-steps/__background/install-steps__background";
+@import "modules/blocks/install-steps/__icon/install-steps__icon.scss";
+@import "modules/blocks/install-steps/__item/install-steps__item.scss";
+@import "modules/blocks/install-steps/__list/install-steps__list.scss";
+@import "modules/blocks/install-steps/__subtitle/install-steps__subtitle.scss";
+@import "modules/blocks/install-steps/__dots/install-steps__dots.scss";
+
+/* DOTS */
+@import "modules/blocks/dots/dots.scss";
+@import "modules/blocks/dots/__primary/dots__primary.scss";
+
+/* SLIDER */
+@import "modules/blocks/slider/slider.scss";
+@import "modules/blocks/slider/slider_disable-transition";
+@import "modules/blocks/slider/__item/slider__item.scss";
+@import "modules/blocks/slider/__image/slider__image.scss";
+@import "modules/blocks/slider/__container/slider__container.scss";
+@import "modules/blocks/slider/__content-inner/slider__content-inner.scss";
+@import "modules/blocks/slider/__control/slider__control.scss";
+@import "modules/blocks/slider/__indicators/slider__indicators.scss";
+@import "modules/blocks/slider/__items/slider__items.scss";
+@import "modules/blocks/slider/__nameplate/slider__nameplate.scss";
+
+/* SEPTICS */
+@import "modules/blocks/septics/septics.scss";
+@import "modules/blocks/septics/__name/septics__name.scss";
+@import "modules/blocks/septics/__description/septics__description.scss";
+@import "modules/blocks/septics/__item/septics__item.scss";
+@import "modules/blocks/septics/__list/septics__list.scss";
+@import "modules/blocks/septics/__title/septics__title.scss";
+
+/* SEPTIC_CARD */
+@import "modules/blocks/septic-card/septic-card.scss";
+@import "modules/blocks/septic-card/__image/septic-card__image.scss";
+@import "modules/blocks/septic-card/__item/septic-card__item.scss";
+@import "modules/blocks/septic-card/__list/septic-card__list.scss";
+@import "modules/blocks/septic-card/__sticker/septic-card__sticker.scss";
+@import "modules/blocks/septic-card/__subtitle/septic-card__subtitle.scss";
+@import "modules/blocks/septic-card/__price/septic-card__price.scss";
+@import "modules/blocks/septic-card/__button/septic-card__button.scss";
+
+/* CALLBACK */
+@import "modules/blocks/callback/callback.scss";
+@import "modules/blocks/callback/__background/callback__background.scss";
+@import "modules/blocks/callback/__subtitle/callback__subtitle.scss";
+@import "modules/blocks/callback/__list/callback__list.scss";
+@import "modules/blocks/callback/__title/callback__title.scss";
+@import "modules/blocks/callback/__item/callback__item.scss";
+@import "modules/blocks/callback/__form/callback__form.scss";
+@import "modules/blocks/callback/__remark/callback__remark.scss";
+@import "modules/blocks/callback/__description/callback__description.scss";
+@import "modules/blocks/callback/__symbol/callback__symbol.scss";
+@import "modules/blocks/callback/__form-area/callback__form-area.scss";
+@import "modules/blocks/callback/__text/callback__text.scss";
+
+/* CALLBACK-FORM */
+@import "modules/blocks/callback-form/callback-form.scss";
+@import "modules/blocks/callback-form/__email/callback-form__email.scss";
+@import "modules/blocks/callback-form/__phone/callback-form__phone.scss";
+@import "modules/blocks/callback-form/__button/callback-form__button";
+@import "modules/blocks/callback-form/__valid/callback-form__valid.scss";
+@import "modules/blocks/callback-form/__comment/callback-form__comment.scss";
+@import "modules/blocks/callback-form/__agreement/callback-form__agreement.scss";
+@import "modules/blocks/callback-form/__checkbox/callback-form__checkbox.scss";
+@import "modules/blocks/callback-form/__check/callback-form__check.scss";
+
+/* GALLERY */
+@import "modules/blocks/gallery/gallery.scss";
+@import "modules/blocks/gallery/__title/gallery__title.scss";
+@import "modules/blocks/gallery/__inner/gallery__inner.scss";
+@import "modules/blocks/gallery/__image/gallery__image.scss";
+@import "modules/blocks/gallery/__image/_size/gallery__image_size_large.scss";
+@import "modules/blocks/gallery/__link/gallery__link.scss";
+
+/* FOOTER */
+@import "modules/blocks/footer/footer.scss";
+@import "modules/blocks/footer/__image/footer__image.scss";
+@import "modules/blocks/footer/__phone/footer__phone.scss";
+@import "modules/blocks/footer/__email/footer__email.scss";
+@import "modules/blocks/footer/__description/footer__description.scss";
+@import "modules/blocks/footer/__item/footer__item.scss";
+@import "modules/blocks/footer/__list/footer__list.scss";
+@import "modules/blocks/footer/__company/footer__company.scss";
+@import "modules/blocks/footer/__contacts/footer__contacts.scss";
+@import "modules/blocks/footer/__link/footer__link.scss";
+@import "modules/blocks/footer/__inner/footer__inner.scss";
+@import "modules/blocks/footer/__inner/footer__inner.scss";
+@import "modules/blocks/footer/__contacts-wrapper/footer__contacts-wrapper.scss";
+@import "modules/blocks/footer/__address/footer__address.scss";

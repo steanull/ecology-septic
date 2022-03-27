@@ -1,0 +1,16 @@
+.icon_position_left {
+  margin-left: -620px;
+
+  @include media(1551px) {
+    margin-left: -502px;
+  }
+
+  @include media(1279px) {
+    margin-left: -445px;
+  }
+
+  @include media(699px) {
+    top: 148px;
+    margin-left: -250px;
+  }
+}

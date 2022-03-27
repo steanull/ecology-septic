@@ -1,0 +1,26 @@
+.services {
+  display: grid;
+  grid-template-rows: 256px 315px 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  height: 100%;
+  padding: 0 0 64px 0;
+
+  @include media(1551px) {
+    grid-template-rows: 256px 260px 1fr;
+    padding: 0 0 34px 0;
+  }
+
+  @include media(1279px) {
+    grid-template-rows: 230px 240px 1fr;
+    padding: 0 0 34px 0;
+  }
+
+  @include media(699px) {
+    grid-template-rows: 100px 240px 1fr;
+    padding: 0;
+    grid-template-columns: 1fr;
+    position: relative;
+    width: 100%;
+  }
+}

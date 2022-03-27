@@ -1,0 +1,23 @@
+.callback {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  max-width: 1482px;
+  width: 100%;
+
+  @include media(1699px) {
+    max-width: 1300px;
+  }
+
+  @include media(1551px) {
+    max-width: 1200px;
+  }
+
+  @include media(1279px) {
+    max-width: 1000px;
+  }
+
+  @include media(699px) {
+    display: none;
+  }
+}

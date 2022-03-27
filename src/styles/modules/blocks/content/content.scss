@@ -1,0 +1,20 @@
+.content {
+  max-width: 1600px;
+  width: 100%;
+
+  @include media(1699px) {
+    max-width: 1500px;
+  }
+
+  @include media(1551px) {
+    max-width: 1230px;
+  }
+
+  @include media(1279px) {
+    max-width: 1000px;
+  }
+
+  @include media(699px) {
+    max-width: 90%;
+  }
+}

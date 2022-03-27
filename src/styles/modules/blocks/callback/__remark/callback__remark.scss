@@ -1,0 +1,11 @@
+.callback__remark {
+  @include font (400, 18px, 24px, #4F6354);
+  max-width: 550px;
+  width: 100%;
+  margin: 0 0 50px 0;
+
+  @include media(1279px) {
+    @include font (400, 16px, 24px, #4F6354);
+    max-width: 500px;
+  }
+}

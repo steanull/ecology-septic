@@ -1,0 +1,19 @@
+.advantage-cards__subtitle {
+  @include fontTitle(400, 18px, 24px, 1px, #006D3C);
+  margin: 11px 21px;
+
+  @include media(1551px) {
+    @include fontTitle(400, 16px, 22px, 0.7px, #006D3C);
+    margin: 8px 16px;
+  }
+
+  @include media(1279px) {
+    @include fontTitle(400, 14px, 20px, 0.6px, #006D3C);
+    margin: 6px 12px;
+  }
+
+  @include media(699px) {
+    @include fontTitle(400, 18px, 24px, 0.6px, #006D3C);
+    margin: 14px 24px;
+  }
+}

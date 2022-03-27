@@ -1,0 +1,20 @@
+.advantage-cards__item {
+  max-width: 223px;
+  width: 100%;
+  min-height: 348px;
+  background-color: #F0F1EC;
+  border-radius: 6px;
+
+  @include media(1551px) {
+    max-width: 188px;
+  }
+
+  @include media(1279px) {
+    max-width: 158px;
+  }
+
+  @include media(699px) {
+    max-width: 250px;
+    margin: 10px 0 20px;
+  }
+}

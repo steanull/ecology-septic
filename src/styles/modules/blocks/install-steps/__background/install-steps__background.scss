@@ -1,0 +1,16 @@
+.install-steps__background {
+  background-color: #F0F1EC;
+  width: 100%;
+  min-height: 200px;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+
+  @include media(1279px) {
+    min-height: 160px;
+  }
+
+  @include media(699px) {
+    display: none;
+  }
+}

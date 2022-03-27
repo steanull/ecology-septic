@@ -1,0 +1,16 @@
+.gallery__image_size_large {
+  width: 780px;
+  height: 100%;
+
+  @include media(1699px) {
+    width: 735px;
+  }
+
+  @include media(1551px) {
+    max-width: 605px;
+  }
+
+  @include media(1279px) {
+    max-width: 490px;
+  }
+}

@@ -1,0 +1,62 @@
+.advantage-cards__button {
+  border: 0;
+  margin: 0;
+  padding: 10px 21px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: .5s;
+  @include font (500, 14px, 20px, #006D3C);
+
+  &:hover {
+    color: #4F6354;
+
+    &:after {
+      padding: 6px 0 0 16px;
+      transition: .5s;
+
+      @include media(1279px) {
+        padding: 3px 0 0 1px;
+        transition: .5s;
+      }
+
+      @include media(699px) {
+        padding: 8px 0 0 20px;
+        transition: .5s;
+      }
+    }
+  }
+
+  &:after {
+    content: url('../img/chevron-right.svg');
+    padding: 6px 0 0 36px;
+    transition: .5s;
+
+    @include media(1551px) {
+      padding: 6px 0 0 28px;
+    }
+
+    @include media(1279px) {
+      padding: 3px 0 0 5px;
+    }
+
+    @include media(699px) {
+      padding: 8px 0 0 20px;
+    }
+  }
+
+  @include media(1551px) {
+    @include font (500, 12px, 16px, #006D3C);
+    padding: 8px 16px;
+  }
+
+  @include media(1279px) {
+    @include font (500, 12px, 16px, #006D3C);
+    padding: 8px 16px 2px;
+  }
+
+  @include media(699px) {
+    @include font (500, 16px, 24px, #006D3C);
+    padding: 4px 24px 16px;
+  }
+}

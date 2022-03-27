@@ -1,0 +1,16 @@
+.callback__description {
+  @include font (400, 22px, 28px, #4F6354);
+  max-width: 480px;
+  width: 100%;
+  margin: 0 0 30px 0;
+  padding: 0;
+
+  @include media(1551px) {
+    @include font (400, 20px, 26px, #4F6354);
+  }
+
+  @include media(1279px) {
+    @include font (400, 18px, 24Wpx, #4F6354);
+    margin: 0;
+  }
+}

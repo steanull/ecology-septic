@@ -1,0 +1,99 @@
+.install__title {
+  @include fontTitle(400, 36px, 44px, 1px, #006D3C);
+  max-width: 660px;
+  padding: 50px 0;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 3;
+  margin: 100px 0 0 75px;
+
+  @include media(1551px) {
+    @include fontTitle(400, 30px, 38px, 1px, #006D3C);
+    margin: 80px 0 0 68px;
+    max-width: 660px;
+  }
+
+  @include media(1279px) {
+    @include fontTitle(400, 26px, 32px, 1px, #006D3C);
+    margin: 55px 0 0 55px;
+    max-width: 660px;
+  }
+
+  @include media(699px) {
+    @include fontTitle(400, 18px, 24px, 1px, #006D3C);
+    margin: 10px 0 0 30px;
+    max-width: 80%;
+    box-sizing: border-box;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    height: 1px;
+    max-width: 192px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 40px;
+    background: #666666;
+
+    @include media(1551px) {
+      margin-top: 8px;
+      margin-left: 40px;
+    }
+
+    @include media(1279px) {
+      margin-top: 4px;
+      margin-left: 40px;
+    }
+
+    @include media(699px) {
+      margin-top: 4px;
+      margin-left: 20px;
+      max-width: 150px;
+    }
+  }
+
+  &:before {
+    content: 'У';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    min-height: 122px;
+    position: absolute;
+    margin-left: -75px;
+    margin-top: -60px;
+    max-width: 105px;
+    width: 100%;
+    background: #F0F1EC;
+    border-radius: 6px;
+    @include fontTitle(700, 96px, 112px, 1px, #006D3C);
+
+    @include media(1551px) {
+      @include fontTitle(700, 80px, 100px, 1px, #006D3C);
+      margin-left: -68px;
+    }
+
+    @include media(1279px) {
+      @include fontTitle(700, 70px, 90px, 1px, #006D3C);
+      margin-left: -55px;
+      margin-top: -50px;
+      max-width: 85px;
+      min-height: 100px;
+    }
+
+    @include media(699px) {
+      @include fontTitle(700, 48px, 56px, 1px, #006D3C);
+      margin-left: -30px;
+      margin-top: -27px;
+      max-width: 44px;
+      min-height: 55px;
+    }
+  }
+}

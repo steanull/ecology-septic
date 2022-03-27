@@ -1,0 +1,25 @@
+.install-steps__subtitle {
+  @include fontTitle(400, 20px, 24px, 0.5px, #006D3C);
+  max-width: 170px;
+  width: 100%;
+  text-align: center;
+  margin: 15px 0 5px;
+  padding: 0;
+
+  @include media(1551px) {
+    @include fontTitle(400, 18px, 24px, 0.5px, #006D3C);
+    max-width: 150px;
+  }
+
+  @include media(1279px) {
+    @include fontTitle(400, 15px, 24px, 0.5px, #006D3C);
+    max-width: 128px;
+    margin: 15px 0 35px;
+  }
+
+  @include media(699px) {
+    @include fontTitle(500, 14px, 20px, 0.1px, #006D3C);
+    max-width: 114px;
+    margin: 10px 0 0;
+  }
+}
