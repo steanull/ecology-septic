@@ -3,7 +3,7 @@
   margin: 0 0 35px;
   max-width: 355px;
   width: 100%;
-  min-height: 63px;
+  min-height: 153px;
   box-sizing: border-box;
   padding: 25px;
   @include font(400, 20px, 28px, #4F6354);
@@ -16,6 +16,14 @@
     max-width: 340px;
     min-height: 52px;
     font-size: 18px;
+  }
+
+  @include media(699px) {
+    max-width: 100%;
+    @include font(500, 16px, 24px, #4F6354);
+    margin: 10px 0 20px;
+    font-size: 16px;
+    min-height: 130px;
   }
 
   &:focus {

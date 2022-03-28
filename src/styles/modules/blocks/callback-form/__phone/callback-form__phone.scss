@@ -15,6 +15,13 @@
     @include font(400, 18px, 28px, #4F6354);
   }
 
+  @include media(699px) {
+    max-width: 100%;
+    min-height: 51px;
+    @include font(500, 16px, 24px, #4F6354);
+    margin: 10px 0;
+  }
+
   &:focus {
     border: 2px solid #4F6354;
     outline: 0;

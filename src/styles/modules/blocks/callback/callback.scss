@@ -18,6 +18,6 @@
   }
 
   @include media(699px) {
-    display: none;
+    flex-direction: column;
   }
 }

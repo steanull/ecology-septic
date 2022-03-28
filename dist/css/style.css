@@ -1456,7 +1456,7 @@
 
 .callback-form__email {
   border-radius: 6px;
-  margin: 35px 0 35px;
+  margin: 35px 0;
   max-width: 355px;
   width: 100%;
   min-height: 63px;
@@ -1527,7 +1527,7 @@
   margin: 0 0 35px;
   max-width: 355px;
   width: 100%;
-  min-height: 63px;
+  min-height: 153px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 25px;
@@ -3295,8 +3295,16 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24Wpx;
+    line-height: 24px;
     margin: 0;
+  }
+
+  .callback__symbol {
+    color: #006D3C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
   }
 
   .callback__form-area {
@@ -4066,7 +4074,171 @@
   }
 
   .callback {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .callback__background {
+    width: 500px;
+    min-height: 550px;
+  }
+
+  .callback__subtitle {
+    color: #006D3C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+  }
+
+  .callback__list {
+    max-width: 100%;
+    gap: 15px 18px;
+    margin: 26px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .callback__title {
+    font-style: normal;
+    color: #006D3C;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    margin: 50px 0 0 38px;
+    max-width: 90%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px 0;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+  }
+
+  .callback__title:after {
+    margin-top: 4px;
+    margin-left: 10px;
+    max-width: 150px;
+  }
+
+  .callback__title:before {
+    font-style: normal;
+    color: #006D3C;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    margin-left: -38px;
+    margin-top: -27px;
+    max-width: 44px;
+    min-height: 55px;
+  }
+
+  .callback__item {
+    padding: 8px;
+    color: #4F6354;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .callback__item:last-of-type {
     display: none;
+  }
+
+  .callback__remark {
+    color: #4F6354;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 0 50px 0;
+  }
+
+  .callback__description {
+    color: #4F6354;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 10px 0;
+  }
+
+  .callback__symbol {
+    color: #006D3C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .callback__form-area {
+    margin: 10px 0;
+  }
+
+  .callback__text {
+    color: #006D3C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 20px;
+  }
+
+  .callback-form__email {
+    max-width: 100%;
+    min-height: 51px;
+    color: #4F6354;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
+  }
+
+  .callback-form__phone {
+    max-width: 100%;
+    min-height: 51px;
+    color: #4F6354;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
+  }
+
+  .callback-form__comment {
+    max-width: 100%;
+    color: #4F6354;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0 20px;
+    font-size: 16px;
+    min-height: 130px;
+  }
+
+  .callback-form__agreement {
+    margin: 0 0 20px 0;
   }
 
   .gallery {
