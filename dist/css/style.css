@@ -1869,6 +1869,10 @@
   padding: 0;
 }
 
+.footer__company {
+  max-width: 50%;
+}
+
 .footer__contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4380,7 +4384,103 @@
     grid-column-end: 2;
   }
 
-  .footer {
-    display: none;
+  .footer:before {
+    border-radius: 26px 0 0 26px;
+  }
+
+  .footer__image {
+    max-width: 121px;
+    width: 100%;
+  }
+
+  .footer__phone {
+    color: #006D3C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .footer__phone:after {
+    margin: 28px 0 0 56px;
+  }
+
+  .footer__phone:before {
+    padding: 0 40px 0 4px;
+  }
+
+  .footer__email {
+    color: #006D3C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .footer__email:after {
+    margin: 28px 0 0 56px;
+  }
+
+  .footer__email:before {
+    padding: 0 40px 0 4px;
+  }
+
+  .footer__description {
+    color: #4F6354;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 26px 0 44px;
+    padding: 0 10px 0 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  .footer__item {
+    margin: 10px 0 10px 20px;
+    padding: 4px 0;
+  }
+
+  .footer__contacts {
+    max-width: 50%;
+    margin: 0 10px 0 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .footer__link {
+    color: #4F6354;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer__inner {
+    max-width: 90%;
+  }
+
+  .footer__inner {
+    max-width: 90%;
+  }
+
+  .footer__contacts-wrapper {
+    position: absolute;
+    margin: 0;
+    top: 280px;
+    left: 0;
+  }
+
+  .footer__address:before {
+    padding: 0 40px 0 4px;
   }
 }

@@ -16,4 +16,12 @@
     max-width: 450px;
     margin: 0 10px 0 0;
   }
+
+  @include media(699px) {
+    max-width: 50%;
+    margin: 0 10px 0 0;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
 }

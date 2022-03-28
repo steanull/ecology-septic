@@ -2,6 +2,11 @@
   margin: 10px 0;
   position: relative;
 
+  @include media(699px) {
+    margin: 10px 0 10px 20px;
+    padding: 4px 0;
+  }
+
   &:before {
     content: url(../img/ellipse.svg);
     position: absolute;

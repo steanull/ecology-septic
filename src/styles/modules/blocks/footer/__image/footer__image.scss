@@ -1,3 +1,7 @@
 .footer__image {
-  
+
+  @include media(699px) {
+    max-width: 121px;
+    width: 100%;
+  }
 }

@@ -25,5 +25,9 @@
       height: 14px;
       max-width: 14px;
     }
+
+    @include media(699px) {
+      padding: 0 40px 0 4px;
+    }
   }
 }
