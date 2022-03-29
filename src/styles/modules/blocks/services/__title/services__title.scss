@@ -23,8 +23,9 @@
 
   @include media(699px) {
     @include fontTitle(400, 18px, 24px, 1px, #006D3C);
-    margin: 40px 0 0 40px;
-    max-width: 80%;
+    margin: 80px auto 0;
+    padding: 0 0 0 40px;
+    width: 90%;
     box-sizing: border-box;
     grid-row-start: 1;
     grid-column-start: 1;

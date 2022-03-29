@@ -17,5 +17,7 @@
   @include media(699px) {
     @include font (400, 12px, 16px, #4F6354);
     padding: 10px 0 ;
+    width: 90%;
+    margin: 0 auto;
   }
 }

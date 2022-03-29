@@ -16,5 +16,6 @@
   @include media(699px) {
     grid-template-rows: 120px 520px 1fr;
     grid-template-columns: 1fr;
+    width: 90%;
   }
 }

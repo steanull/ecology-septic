@@ -20,6 +20,11 @@
     max-width: 90px;
   }
 
+  @include media(1050px) {
+    @include fontTitle(400, 24px, 32px, 0.7px, #00210E);
+    max-width: 124px;
+  }
+
   @include media(699px) {
     @include fontTitle(500, 14px, 20px, 0.1px, #00210E);
     max-width: 110px;

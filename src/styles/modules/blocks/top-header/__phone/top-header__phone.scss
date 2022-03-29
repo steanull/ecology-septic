@@ -19,6 +19,10 @@
     @include font(400, 20px, 24px, #006D3C)
   }
 
+  @include media(1050px) {
+    display: none;
+  }
+
   @include media(699px) {
     display: none;
   }

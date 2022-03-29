@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 
+  @include media(1050px) {
+    display: none;
+  }
+
   @include media(699px) {
     display: none;
   }

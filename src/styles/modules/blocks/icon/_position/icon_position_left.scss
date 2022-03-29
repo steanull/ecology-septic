@@ -9,6 +9,10 @@
     margin-left: -445px;
   }
 
+  @include media(1050px) {
+    margin-left: -420px;
+  }
+
   @include media(699px) {
     top: 148px;
     margin-left: -250px;

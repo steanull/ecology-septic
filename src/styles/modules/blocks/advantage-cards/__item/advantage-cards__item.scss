@@ -14,7 +14,8 @@
   }
 
   @include media(699px) {
-    max-width: 250px;
-    margin: 10px 0 20px;
+    min-width: 210px;
+    margin: 10px 10px 20px 0;
+    flex-shrink: 0;
   }
 }

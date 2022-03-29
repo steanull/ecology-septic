@@ -56,7 +56,7 @@
   }
 
   @include media(699px) {
-    @include font (500, 16px, 24px, #006D3C);
-    padding: 4px 24px 16px;
+    @include font (500, 14px, 24px, #006D3C);
+    padding: 4px 20px 10px;
   }
 }

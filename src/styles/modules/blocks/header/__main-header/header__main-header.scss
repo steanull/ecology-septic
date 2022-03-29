@@ -12,7 +12,15 @@
     max-width: 1000px;
   }
 
+  @include media(1050px) {
+    max-width: 690px;
+    min-height: 100%;
+    margin-top: 75px;
+  }
+
   @include media(699px) {
     max-width: 90%;
+    min-height: 100%;
+    margin-top: 0;
   }
 }

@@ -19,5 +19,6 @@
 
   @include media(699px) {
     flex-direction: column;
+    width: 90%;
   }
 }

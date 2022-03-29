@@ -7,7 +7,7 @@
   justify-content: space-between;
 
   @include media(699px) {
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    position: relative;
   }
 }

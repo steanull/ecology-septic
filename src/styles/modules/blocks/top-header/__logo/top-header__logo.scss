@@ -4,6 +4,10 @@
   flex-direction: row;
   align-items: center;
 
+  @include media(1050px) {
+    margin-right: auto;
+  }
+
   @include media(699px) {
     max-width: 130px;
     min-width: 125px;

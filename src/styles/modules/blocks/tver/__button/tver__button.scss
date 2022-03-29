@@ -20,4 +20,9 @@
     max-width: 154px;
     min-height: 38px;
   }
+
+  @include media(1050px) {
+    max-width: 150px;
+    min-height: 36px;
+  }
 }

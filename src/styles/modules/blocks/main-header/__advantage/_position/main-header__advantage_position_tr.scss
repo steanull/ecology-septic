@@ -10,4 +10,9 @@
     right: 11%;
     margin-top: -340px;
   }
+
+  @include media(1050px) {
+    right: 0;
+    margin-top: -320px;
+  }
 }
