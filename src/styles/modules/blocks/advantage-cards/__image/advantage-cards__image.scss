@@ -9,6 +9,10 @@
     max-width: 188px;
   }
 
+  @include media(1050px) {
+    max-width: 196px;
+  }
+
   @include media(699px) {
     max-width: 100%;
     min-height: 170px;

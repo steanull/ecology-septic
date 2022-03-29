@@ -13,6 +13,10 @@
     max-width: 158px;
   }
 
+  @include media(1050px) {
+    max-width: 196px;
+  }
+
   @include media(699px) {
     min-width: 210px;
     margin: 10px 10px 20px 0;
