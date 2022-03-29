@@ -20,6 +20,10 @@
     max-width: 1000px;
   }
 
+  @include media(1050px) {
+    max-width: 690px;
+  }
+
   @include media(699px) {
     max-width: 90%;
   }

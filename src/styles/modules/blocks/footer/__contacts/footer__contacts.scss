@@ -17,6 +17,11 @@
     margin: 0 10px 0 0;
   }
 
+  @include media(1050px) {
+    max-width: 390px;
+    margin: 0 10px 0 0;
+  }
+
   @include media(699px) {
     max-width: 50%;
     margin: 0 10px 0 0;
