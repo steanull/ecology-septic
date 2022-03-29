@@ -19,6 +19,13 @@
     gap: 40px 50px;
   }
 
+  @include media(1050px) {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 50px 0;
+  }
+
   @include media(699px) {
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(2, 1fr);

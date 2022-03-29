@@ -1086,7 +1086,7 @@
   margin-top: -60px;
   max-width: 105px;
   width: 100%;
-  background: #DCE5DB;
+  background: #f0f1ec;
   border-radius: 6px;
   font-style: normal;
   color: #006D3C;
@@ -9009,6 +9009,196 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .icon_position_bottom {
     margin-top: 410px;
   }
+
+  .install {
+    grid-template-rows: 170px 180px 230px 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .install__description {
+    max-width: 690px;
+  }
+
+  .install__gallery {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-row-end: 5;
+    grid-column-end: 2;
+    margin: 60px auto 50px auto;
+  }
+
+  .install__steps {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+  }
+
+  .install__symbol {
+    color: #006D3C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .install__text {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 2;
+  }
+
+  .install__title {
+    font-style: normal;
+    color: #006D3C;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    margin: 50px 0 0 60px;
+    max-width: 660px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+  }
+
+  .install__title:before {
+    font-style: normal;
+    color: #006D3C;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    margin-left: -60px;
+    margin-top: -41px;
+    max-width: 72px;
+    min-height: 84px;
+  }
+
+  .install-steps__background {
+    min-height: 164px;
+  }
+
+  .install-steps__icon {
+    max-width: 60px;
+    min-height: 60px;
+  }
+
+  .install-steps__subtitle {
+    font-style: normal;
+    color: #006D3C;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    max-width: 103px;
+    margin: 15px 0 35px;
+  }
+
+  .install-steps__dots {
+    display: none;
+  }
+
+  .slider {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .septics__description {
+    color: #4F6354;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .septics__list {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 50px 0;
+  }
+
+  .septics__title {
+    font-style: normal;
+    color: #006D3C;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    margin: 40px 0 0 57px;
+    max-width: 660px;
+    padding: 30px 0;
+  }
+
+  .septics__title:before {
+    font-style: normal;
+    color: #006D3C;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    margin-left: -57px;
+    margin-top: -41px;
+    max-width: 72px;
+    min-height: 84px;
+  }
+
+  .septic-card__list {
+    margin: 5px 0 0 16px;
+  }
+
+  .septic-card__subtitle {
+    font-style: normal;
+    color: #006D3C;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    margin: 15px 0 15px 16px;
+  }
+
+  .septic-card__price {
+    margin: 16px 0 12px 16px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -9339,18 +9529,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
 
   .install__gallery {
-    grid-row-start: 4;
-    grid-column-start: 1;
-    grid-row-end: 5;
-    grid-column-end: 2;
     margin: 20px 10px;
-  }
-
-  .install__steps {
-    grid-row-start: 2;
-    grid-column-start: 1;
-    grid-row-end: 3;
-    grid-column-end: 2;
   }
 
   .install__symbol {
@@ -9359,13 +9538,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
-  }
-
-  .install__text {
-    grid-row-start: 3;
-    grid-column-start: 1;
-    grid-row-end: 4;
-    grid-column-end: 2;
   }
 
   .install__title {
@@ -9385,10 +9557,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     max-width: 80%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    grid-row-start: 1;
-    grid-column-start: 1;
-    grid-row-end: 2;
-    grid-column-end: 2;
   }
 
   .install__title:after {
@@ -9461,10 +9629,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     text-rendering: optimizeLegibility;
     max-width: 114px;
     margin: 10px 0 0;
-  }
-
-  .install-steps__dots {
-    display: none;
   }
 
   .slider {
