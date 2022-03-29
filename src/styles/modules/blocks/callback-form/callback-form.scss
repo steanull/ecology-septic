@@ -1,4 +1,8 @@
 .callback-form {
   max-width: 355px;
   width: 100%;
+
+  @include media(1050px) {
+    max-width: 450px;
+  }
 }

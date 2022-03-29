@@ -15,6 +15,11 @@
     @include font(400, 18px, 28px, #4F6354);
   }
 
+  @include media(1050px) {
+    max-width: 400px;
+    min-height: 63px;
+  }
+
   @include media(699px) {
     max-width: 100%;
     min-height: 51px;

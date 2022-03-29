@@ -11,6 +11,11 @@
     @include font(400, 24px, 32px, #006D3C);
   }
 
+  @include media(1050px) {
+    @include font (400, 22px, 28px, #006D3C);
+    margin: 0;
+  }
+
   @include media(699px) {
     @include font(400, 18px, 24px, #006D3C);
     margin: 0 0 20px;

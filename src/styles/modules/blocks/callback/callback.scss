@@ -17,6 +17,11 @@
     max-width: 1000px;
   }
 
+  @include media(1050px) {
+    max-width: 690px;
+    flex-direction: column;
+  }
+
   @include media(699px) {
     flex-direction: column;
     width: 90%;

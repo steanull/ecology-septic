@@ -15,6 +15,12 @@
     margin: 30px 0;
   }
 
+  @include media(1050px) {
+    max-width: 100%;
+    gap: 15px 22px;
+    margin: 30px 0;
+  }
+
   @include media(699px) {
     max-width: 100%;
     gap: 15px 18px;

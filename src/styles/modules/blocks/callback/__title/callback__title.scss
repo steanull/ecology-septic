@@ -21,6 +21,17 @@
     max-width: 660px;
   }
 
+  @include media(1050px) {
+    @include fontTitle(400, 24px, 32px, 0.1px, #006D3C);
+    margin: 10px 0 0 60px;
+    padding: 30px 0;
+    max-width: 660px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+  }
+
   @include media(699px) {
     @include fontTitle(400, 18px, 24px, 1px, #006D3C);
     margin: 50px 0 0 38px;
@@ -87,6 +98,14 @@
       margin-top: -50px;
       max-width: 85px;
       min-height: 100px;
+    }
+
+    @include media(1050px) {
+      @include fontTitle(700, 64px, 75px, 1px, #006D3C);
+      margin-left: -60px;
+      margin-top: -41px;
+      max-width: 72px;
+      min-height: 84px;
     }
 
     @include media(699px) {

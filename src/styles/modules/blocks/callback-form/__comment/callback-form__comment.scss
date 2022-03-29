@@ -18,6 +18,11 @@
     font-size: 18px;
   }
 
+  @include media(1050px) {
+    max-width: 400px;
+    min-height: 163px;
+  }
+
   @include media(699px) {
     max-width: 100%;
     @include font(500, 16px, 24px, #4F6354);
