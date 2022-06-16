@@ -7,6 +7,11 @@
     width: 60%;
   }
 
+  @include media(1050px) {
+    max-width: 567px;
+    width: 100%;
+  }
+
   @include media(699px) {
     width: 252px;
     margin: 0;

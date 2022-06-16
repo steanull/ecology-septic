@@ -1,2 +1,11 @@
 .footer__company {
+  max-width: 50%;
+
+  @include media(1050px) {
+    max-width: 35%;
+  }
+
+  @include media(699px) {
+    max-width: 50%;
+  }
 }

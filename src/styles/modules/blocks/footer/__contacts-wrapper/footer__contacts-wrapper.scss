@@ -3,4 +3,11 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 140px;
+
+  @include media(699px) {
+    position: absolute;
+    margin: 0;
+    top: 330px;
+    left: 0;
+  }
 }

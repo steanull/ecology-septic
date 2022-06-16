@@ -1,16 +1,21 @@
 .slider {
-    position: relative;
+  position: relative;
+  max-width: 100%;
+
+  @include media(1699px) {
+    max-width: 95%;
+  }
+
+  @include media(1551px) {
+    max-width: 90%;
+  }
+
+  @include media(1050px) {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  @include media(699px) {
     max-width: 100%;
-
-    @include media(1699px) {
-        max-width: 95%;
-    }
-
-    @include media(1551px) {
-        max-width: 90%;
-    }
-
-    @include media(699px) {
-        max-width: 100%;
-    }
+  }
 }

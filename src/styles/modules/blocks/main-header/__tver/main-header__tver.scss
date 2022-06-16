@@ -13,6 +13,11 @@
     margin-top: 380px;
   }
 
+  @include media(1050px) {
+    right: 0;
+    margin-top: 360px;
+  }
+
   @include media(699px) {
     position: relative;
     right: 0;

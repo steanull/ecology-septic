@@ -7,4 +7,17 @@
   @include media(1279px) {
     max-width: 420px;
   }
+
+  @include media(1050px) {
+    @include font(500, 14px, 20px, #4F6354);
+    max-width: 210px;
+    margin: 20px 0 60px;
+  }
+
+  @include media(699px) {
+    @include font(400, 12px, 22px, #4F6354);
+    margin: 26px 0 44px;
+    padding: 0 10px 0 0;
+    box-sizing: border-box;
+  }
 }

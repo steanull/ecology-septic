@@ -13,8 +13,14 @@
     grid-template-rows: 200px 180px 1fr;
   }
 
+  @include media(1050px) {
+    grid-template-rows: 170px 180px 230px 1fr;
+    grid-template-columns: 1fr;
+  }
+
   @include media(699px) {
     grid-template-rows: 120px 520px 1fr;
     grid-template-columns: 1fr;
+    width: 90%;
   }
 }

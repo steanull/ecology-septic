@@ -21,6 +21,25 @@
     max-width: 660px;
   }
 
+  @include media(1050px) {
+    @include fontTitle(400, 24px, 32px, 0.1px, #006D3C);
+    margin: 40px 0 0 57px;
+    max-width: 660px;
+    padding: 30px 0;
+  }
+
+  @include media(699px) {
+    @include fontTitle(400, 18px, 24px, 1px, #006D3C);
+    margin: 50px 0 0 40px;
+    max-width: 80%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+  }
+
   &:after {
     content: '';
     display: block;
@@ -40,6 +59,12 @@
       margin-top: 4px;
       margin-left: 40px;
     }
+
+    @include media(699px) {
+      margin-top: 4px;
+      margin-left: 10px;
+      max-width: 150px;
+    }
   }
 
   &:before {
@@ -54,7 +79,7 @@
     margin-top: -60px;
     max-width: 105px;
     width: 100%;
-    background: #DCE5DB;
+    background: #f0f1ec;
     border-radius: 6px;
     @include fontTitle(700, 96px, 112px, 1px, #006D3C);
 
@@ -69,6 +94,22 @@
       margin-top: -50px;
       max-width: 85px;
       min-height: 100px;
+    }
+
+    @include media(1050px) {
+      @include fontTitle(700, 64px, 75px, 1px, #006D3C);
+      margin-left: -57px;
+      margin-top: -41px;
+      max-width: 72px;
+      min-height: 84px;
+    }
+
+    @include media(699px) {
+      @include fontTitle(700, 48px, 56px, 1px, #006D3C);
+      margin-left: -40px;
+      margin-top: -27px;
+      max-width: 44px;
+      min-height: 55px;
     }
   }
 }

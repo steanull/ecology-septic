@@ -1,6 +1,6 @@
-.callback-form__email {
+.callback-form__name {
   border-radius: 6px;
-  margin: 35px 0 35px;
+  margin: 35px 0;
   max-width: 355px;
   width: 100%;
   min-height: 63px;
@@ -14,6 +14,18 @@
     max-width: 340px;
     min-height: 52px;
     @include font(400, 18px, 28px, #4F6354);
+  }
+
+  @include media(1050px) {
+    max-width: 400px;
+    min-height: 63px;
+  }
+
+  @include media(699px) {
+    max-width: 100%;
+    min-height: 51px;
+    @include font(500, 16px, 24px, #4F6354);
+    margin: 10px 0;
   }
 
   &:focus {

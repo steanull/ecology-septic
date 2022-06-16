@@ -8,6 +8,10 @@
     @include font(400, 16px, 20px, #4F6354);
   }
 
+  @include media(699px) {
+    @include font(400, 16px, 20px, #4F6354);
+  }
+
   &:after {
     content: "";
     position: absolute;

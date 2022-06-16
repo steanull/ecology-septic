@@ -14,11 +14,15 @@
     margin: 60px 0 50px 20px;
   }
 
-  @include media(699px) {
+  @include media(1050px) {
     grid-row-start: 4;
     grid-column-start: 1;
     grid-row-end: 5;
     grid-column-end: 2;
+    margin: 60px auto 50px auto;
+  }
+
+  @include media(699px) {
     margin: 20px 10px;
   }
 }

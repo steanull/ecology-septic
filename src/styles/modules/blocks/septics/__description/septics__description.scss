@@ -8,4 +8,14 @@
   @include media(1279px) {
     @include font(400, 13px, 16px, #4F6354);
   }
+
+  @include media(1050px) {
+    @include font(400, 14px, 20px, #4F6354);
+  }
+
+  @include media(699px) {
+    @include font(400, 12px, 16px, #4F6354);
+    padding: 0;
+    margin: 10px 0;
+  }
 }

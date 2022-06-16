@@ -11,9 +11,14 @@
     right: 0;
     z-index:-1;
     background-color: #F0F1EC;
-  }
 
-  @include media(699px) {
-    display: none;
+    @include media(1050px) {
+      left: 40%;
+    }
+
+    @include media(699px) {
+      border-radius: 26px 0 0 26px;
+      left: 50%;
+    }
   }
 }

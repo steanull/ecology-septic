@@ -1,3 +1,7 @@
 .advantage-cards {
-  width: 100%;
+  width: 95%;
+
+  @include media(1050px) {
+    width: 100%;
+  }
 }

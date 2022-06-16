@@ -9,7 +9,11 @@
     margin-top: -440px;
   }
 
+  @include media(1050px) {
+    margin-top: -415px;
+  }
+
   @include media(699px) {
-    top: 460px;
+    top: 435px;
   }
 }

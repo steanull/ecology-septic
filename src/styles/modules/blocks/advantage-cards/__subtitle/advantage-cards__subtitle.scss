@@ -12,8 +12,13 @@
     margin: 6px 12px;
   }
 
+  @include media(1050px) {
+    @include fontTitle(400, 16px, 20px, 0.8px, #006D3C);
+    margin: 6px 18px;
+  }
+
   @include media(699px) {
     @include fontTitle(400, 18px, 24px, 0.6px, #006D3C);
-    margin: 14px 24px;
+    margin: 14px 20px;
   }
 }

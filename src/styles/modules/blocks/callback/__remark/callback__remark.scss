@@ -8,4 +8,9 @@
     @include font (400, 16px, 24px, #4F6354);
     max-width: 500px;
   }
+
+  @include media(699px) {
+    @include font(400, 12px, 20px, #4F6354);
+    margin: 0 0 50px 0;
+  }
 }

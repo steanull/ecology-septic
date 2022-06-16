@@ -221,10 +221,8 @@ gulp.task('otf2ttf', function () {
         .pipe(dest(sourceFolder + '/fonts/'));
 })
 /*gh-pages*/
-gulp.task('deploy', function () {
-    return gulp.src('./dist/**/*')
-        .pipe(ghPages());
-});
+gulp.task('deploy', () => src('./dist/**/*').pipe(ghPages()));
+
 
 function watchFiles(params) {
     gulp.watch([path.watch.html], html);

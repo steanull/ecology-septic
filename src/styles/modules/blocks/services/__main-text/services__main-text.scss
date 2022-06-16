@@ -15,7 +15,8 @@
     max-width: 900px;
   }
 
-  @include media(699px) {
+  @include media(1050px) {
+    max-width: 570px;
     grid-row-start: 2;
     grid-column-start: 1;
     grid-row-end: 3;

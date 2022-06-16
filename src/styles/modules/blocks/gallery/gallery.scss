@@ -1,6 +1,6 @@
 .gallery {
 
   @include media(699px) {
-    display: none;
+    width: 90%;
   }
 }

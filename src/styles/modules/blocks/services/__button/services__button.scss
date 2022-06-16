@@ -25,7 +25,11 @@
     margin-left: 35px;
   }
 
+  @include media(1050px) {
+    margin-left: 0;
+  }
+
   @include media(699px) {
-    margin: 20px 0;
+    margin: 20px 0 20px 5%;
   }
 }

@@ -11,4 +11,8 @@
   @include media(1279px) {
     margin: 0 40px 0 0;
   }
+
+  @include media(699px) {
+    margin: 10px 0;
+  }
 }

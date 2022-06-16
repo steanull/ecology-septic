@@ -1,4 +1,12 @@
 .callback-form__agreement {
   @include font(400, 12px, 16px, #4F6354);
   margin: 0 0 35px 0;
+
+  @include media(1050px) {
+    max-width: 360px;
+  }
+
+  @include media(699px) {
+    margin: 0 0 20px 0;
+  }
 }

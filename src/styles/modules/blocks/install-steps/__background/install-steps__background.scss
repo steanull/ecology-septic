@@ -10,6 +10,10 @@
     min-height: 160px;
   }
 
+  @include media(1050px) {
+    min-height: 164px;
+  }
+
   @include media(699px) {
     display: none;
   }

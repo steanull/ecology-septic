@@ -1,13 +1,23 @@
 .callback__text {
-  @include font (400, 28px, 36px, #006D3C);
+  @include font(400, 28px, 36px, #006D3C);
   margin: 5px 0;
   padding: 0;
 
   @include media(1551px) {
-    @include font (400, 26px, 34px, #006D3C);
+    @include font(400, 26px, 34px, #006D3C);
   }
 
   @include media(1279px) {
-    @include font (400, 24px, 32px, #006D3C);
+    @include font(400, 24px, 32px, #006D3C);
+  }
+
+  @include media(1050px) {
+    @include font (400, 22px, 28px, #006D3C);
+    margin: 0;
+  }
+
+  @include media(699px) {
+    @include font(400, 18px, 24px, #006D3C);
+    margin: 0 0 20px;
   }
 }

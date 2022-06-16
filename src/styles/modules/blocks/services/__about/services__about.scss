@@ -22,12 +22,13 @@
     margin-left: 70px;
   }
 
-  @include media(699px) {
+  @include media(1050px) {
     grid-row-start: 4;
     grid-column-start: 1;
     grid-row-end: 5;
     grid-column-end: 2;
     width: 100%;
-    margin: 0;
+    max-width: 690px;
+    margin-left: 0;
   }
 }

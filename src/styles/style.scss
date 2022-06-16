@@ -59,6 +59,7 @@
 @import "modules/blocks/advantage-cards/__description/advantage-cards__description.scss";
 @import "modules/blocks/advantage-cards/__button/advantage-cards__button.scss";
 @import "modules/blocks/advantage-cards/__image/advantage-cards__image.scss";
+@import "modules/blocks/advantage-cards/__slider-list/advantage-cards__slider-list.scss";
 
 /* ICON */
 @import "modules/blocks/icon/icon.scss";
@@ -138,7 +139,7 @@
 
 /* CALLBACK-FORM */
 @import "modules/blocks/callback-form/callback-form.scss";
-@import "modules/blocks/callback-form/__email/callback-form__email.scss";
+@import "modules/blocks/callback-form/__name/callback-form__name";
 @import "modules/blocks/callback-form/__phone/callback-form__phone.scss";
 @import "modules/blocks/callback-form/__button/callback-form__button";
 @import "modules/blocks/callback-form/__valid/callback-form__valid.scss";
@@ -170,3 +171,22 @@
 @import "modules/blocks/footer/__inner/footer__inner.scss";
 @import "modules/blocks/footer/__contacts-wrapper/footer__contacts-wrapper.scss";
 @import "modules/blocks/footer/__address/footer__address.scss";
+
+/* LIGHTGALLERY */
+@import "modules/vendor/lightgallery/lightgallery.scss";
+@import "modules/vendor/lightgallery/lg-animations.scss";
+@import "modules/vendor/lightgallery/lg-animations.scss";
+@import "modules/vendor/lightgallery/lg-autoplay.scss";
+@import "modules/vendor/lightgallery/lg-fb-comment-box.scss";
+@import "modules/vendor/lightgallery/lg-fonts.scss";
+@import "modules/vendor/lightgallery/lg-fullscreen.scss";
+@import "modules/vendor/lightgallery/lg-mixins.scss";
+@import "modules/vendor/lightgallery/lg-pager.scss";
+@import "modules/vendor/lightgallery/lg-rotate.scss";
+@import "modules/vendor/lightgallery/lg-share.scss";
+@import "modules/vendor/lightgallery/lg-theme-default.scss";
+@import "modules/vendor/lightgallery/lg-thumbnail.scss";
+@import "modules/vendor/lightgallery/lg-transitions.scss";
+@import "modules/vendor/lightgallery/lg-variables.scss";
+@import "modules/vendor/lightgallery/lg-video.scss";
+@import "modules/vendor/lightgallery/lg-zoom.scss";
